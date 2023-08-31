@@ -20,6 +20,3 @@ states<-lapply(countries,function(i){
   )
 })
 
-
-
-
