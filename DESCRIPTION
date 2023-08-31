@@ -1,14 +1,14 @@
-Package: quickcode
+Package: r2country
 Type: Package
-Title: A Compilation of Some Frequently Used R Functions
+Title: Country Data for Name, States, Government, Currency, Population, Time, Languages and so on
 Version: 0.3
 Authors@R: c(
     person("Obinna", "Obianom", email = "idonshayo@gmail.com", role = c("aut", "cre")))
 Maintainer: Obinna Obianom <idonshayo@gmail.com>
-Description: The NOT functions and a simple compilation of various functions for easy usage. Shorthand code to save memory usage.
+Description: Easily Obtain information about countries around the globe. Information for name, states, presidents, currency and many more. 
 License: MIT + file LICENSE
-URL: https://quickcode.obi.obianom.com
-BugReports: https://github.com/oobianom/quickcode
+URL: https://r2country.obi.obianom.com
+BugReports: https://github.com/oobianom/r2country
 Depends: 
     R (>= 3.6)
 Imports: 
@@ -27,4 +27,3 @@ VignetteBuilder: knitr
 Language: en-US
 LazyData: false
 RoxygenNote: 7.2.3
-Config/testthat/edition: 3
