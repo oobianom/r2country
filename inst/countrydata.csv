@@ -1,194 +1,194 @@
 ,name,currency,symbol,isocode,fractionalunity,time,population,continent,president2023,vpresident2023,callingcode,officiallanguage
-1,Afghanistan,Afghan afghani,؋‎,AFN,Pul,-1,1,africa,NA,NA,1,english
-2,Albania,Albanian lek,Lek,ALL,Qintar,-1,1,africa,NA,NA,1,english
-3,Algeria,Algerian dinar,DA,DZD,Santeem,-1,1,africa,NA,NA,1,english
-4,Andorra,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-5,Angola,Angolan kwanza,Kz,AOA,Cêntimo,-1,1,africa,NA,NA,1,english
-6,Antigua and Barbuda,Eastern Caribbean dollar,$,XCD,Cent,-1,1,africa,NA,NA,1,english
-7,Argentina,Argentine peso,$,ARS,Centavo,-1,1,africa,NA,NA,1,english
-,Anguilla,Eastern Caribbean dollar,$,XCD,Cent,,,,,,,
-8,Armenia,Armenian dram,֏,AMD,Luma,-1,1,africa,NA,NA,1,english
-9,Austria,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-,Australia,Australian dollar,$,AUD,Cent,,,,,,,
-10,Azerbaijan,Azerbaijani manat,₼,AZN,Qəpik,-1,1,africa,NA,NA,1,english
-11,Bahrain,Bahraini dinar,BD,BHD,Fils,-1,1,africa,NA,NA,1,english
-,The Bahamas,Bahamian dollar,$,BSD,Cent,,,,,,,
-12,Bangladesh,Bangladeshi taka,৳,BDT,Poisha,-1,1,africa,NA,NA,1,english
-13,Barbados,Barbadian dollar,$,BBD,Cent,-1,1,africa,NA,NA,1,english
-14,Belarus,Belarusian ruble,Br,BYN,Copeck,-1,1,africa,NA,NA,1,english
-15,Belgium,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-16,Belize,Belize dollar,$,BZD,Cent,-1,1,africa,NA,NA,1,english
-17,Benin,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,english
-18,Bhutan,Bhutanese ngultrum,Nu,BTN,Chetrum,-1,1,africa,NA,NA,1,english
-19,Bolivia,Bolivian boliviano,Bs,BOB,Centavo,-1,1,africa,NA,NA,1,english
-20,Bosnia and Herzegovina,Bosnia and Herzegovina convertible mark,KM,BAM,Fening,-1,1,africa,NA,NA,1,english
-21,Botswana,Botswana pula,P,BWP,Thebe,-1,1,africa,NA,NA,1,english
-22,Brazil,Brazilian real,R$,BRL,Centavo,-1,1,africa,NA,NA,1,english
-23,Brunei,Brunei dollar,$,BND,Sen,-1,1,africa,NA,NA,1,english
-24,Bulgaria,Bulgarian lev,Lev,BGN,Stotinka,-1,1,africa,NA,NA,1,english
-25,Burkina Faso,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,english
-26,Burundi,Burundian franc,Fr,BIF,Centime,-1,1,africa,NA,NA,1,english
-27,Cape Verde,Cape Verdean escudo,$,CVE,Centavo,-1,1,africa,NA,NA,1,english
-28,Cambodia,Cambodian riel,៛,KHR,Sen,-1,1,africa,NA,NA,1,english
-29,Cameroon,Central African CFA franc,Fr,XAF,Centime,-1,1,africa,NA,NA,1,english
-30,Canada,Canadian dollar,$,CAD,Cent,-1,1,africa,NA,NA,1,english
-31,Central African Republic,Central African CFA franc,Fr,XAF,Centime,-1,1,africa,NA,NA,1,english
-32,Chad,Central African CFA franc,Fr,XAF,Centime,-1,1,africa,NA,NA,1,english
-34,Chile,Chilean peso,$,CLP,Centavo,-1,1,africa,NA,NA,1,english
-35,China,Renminbi,¥,CNY,Jiao,-1,1,africa,NA,NA,1,english
-36,Colombia,Colombian peso,$,COP,Centavo,-1,1,africa,NA,NA,1,english
-37,Comoros,Comorian franc,Fr,KMF,Centime,-1,1,africa,NA,NA,1,english
-38,DR Congo,Congolese franc,Fr,CDF,Centime,-1,1,africa,NA,NA,1,english
-,Congo,Central African CFA franc,Fr,XAF,Centime,,,,,,,
-39,Costa Rica,Costa Rican colón,₡,CRC,Céntimo,-1,1,africa,NA,NA,1,english
-40,Côte d'Ivoire,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,english
-41,Croatia,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-42,Cuba,Cuban peso,$,CUP,Centavo,-1,1,africa,NA,NA,1,english
-43,Cyprus,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-44,Czech Republic,Czech koruna,Kč,CZK,Heller,-1,1,africa,NA,NA,1,english
-45,Denmark,Danish krone,kr,DKK,Øre,-1,1,africa,NA,NA,1,english
-46,Djibouti,Djiboutian franc,Fr,DJF,Centime,-1,1,africa,NA,NA,1,english
-47,Dominica,Eastern Caribbean dollar,$,XCD,Cent,-1,1,africa,NA,NA,1,english
-48,Dominican Republic,Dominican peso,$,DOP,Centavo,-1,1,africa,NA,NA,1,english
-49,East Timor,United States dollar,$,USD,Centavo,-1,1,africa,NA,NA,1,english
-50,Ecuador,United States dollar,$,USD,Centavo,-1,1,africa,NA,NA,1,english
-51,Egypt,Egyptian pound,LE,EGP,Piastre,-1,1,africa,NA,NA,1,english
-52,El Salvador,United States dollar,$,USD,Cent,-1,1,africa,NA,NA,1,english
-53,Equatorial Guinea,Central African CFA franc,Fr,XAF,Centime,-1,1,africa,NA,NA,1,english
-54,Eritrea,Eritrean nakfa,Nkf,ERN,Cent,-1,1,africa,NA,NA,1,english
-55,Estonia,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-56,Eswatini,Swazi lilangeni,L,SZL,Cent,-1,1,africa,NA,NA,1,english
-57,Ethiopia,Ethiopian birr,Br,ETB,Santim,-1,1,africa,NA,NA,1,english
+1,Afghanistan,Afghan afghani,؋‎,AFN,Pul,-1,1,africa,NA,NA,1,"Persian, Pashto"
+2,Albania,Albanian lek,Lek,ALL,Qintar,-1,1,africa,NA,NA,1,Albanian
+3,Algeria,Algerian dinar,DA,DZD,Santeem,-1,1,africa,NA,NA,1,"Arabic, Berber"
+4,Andorra,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,Catalan
+5,Angola,Angolan kwanza,Kz,AOA,Cêntimo,-1,1,africa,NA,NA,1,Portuguese
+6,Antigua and Barbuda,Eastern Caribbean dollar,$,XCD,Cent,-1,1,africa,NA,NA,1,English
+7,Argentina,Argentine peso,$,ARS,Centavo,-1,1,africa,NA,NA,1,Spanish
+,Anguilla,Eastern Caribbean dollar,$,XCD,Cent,,,,,,,English
+8,Armenia,Armenian dram,֏,AMD,Luma,-1,1,africa,NA,NA,1,Armenian
+9,Austria,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,German
+,Australia,Australian dollar,$,AUD,Cent,,,,,,,English
+10,Azerbaijan,Azerbaijani manat,₼,AZN,Qəpik,-1,1,africa,NA,NA,1,Azerbaijani
+11,Bahrain,Bahraini dinar,BD,BHD,Fils,-1,1,africa,NA,NA,1,Arabic
+,The Bahamas,Bahamian dollar,$,BSD,Cent,,,,,,,English
+12,Bangladesh,Bangladeshi taka,৳,BDT,Poisha,-1,1,africa,NA,NA,1,Bengali
+13,Barbados,Barbadian dollar,$,BBD,Cent,-1,1,africa,NA,NA,1,English
+14,Belarus,Belarusian ruble,Br,BYN,Copeck,-1,1,africa,NA,NA,1,"Belarusian, Russian"
+15,Belgium,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,"Dutch, French, German"
+16,Belize,Belize dollar,$,BZD,Cent,-1,1,africa,NA,NA,1,English
+17,Benin,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,French
+18,Bhutan,Bhutanese ngultrum,Nu,BTN,Chetrum,-1,1,africa,NA,NA,1,Dzongkha
+19,Bolivia,Bolivian boliviano,Bs,BOB,Centavo,-1,1,africa,NA,NA,1,"Spanish, Quechua, Aymara, Guarani"
+20,Bosnia and Herzegovina,Bosnia and Herzegovina convertible mark,KM,BAM,Fening,-1,1,africa,NA,NA,1,"Bosnian, Croatian, Serbian"
+21,Botswana,Botswana pula,P,BWP,Thebe,-1,1,africa,NA,NA,1,English
+22,Brazil,Brazilian real,R$,BRL,Centavo,-1,1,africa,NA,NA,1,Portuguese
+23,Brunei,Brunei dollar,$,BND,Sen,-1,1,africa,NA,NA,1,Malay
+24,Bulgaria,Bulgarian lev,Lev,BGN,Stotinka,-1,1,africa,NA,NA,1,Bulgarian
+25,Burkina Faso,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,French
+26,Burundi,Burundian franc,Fr,BIF,Centime,-1,1,africa,NA,NA,1,"French, Kirundi, English"
+27,Cape Verde,Cape Verdean escudo,$,CVE,Centavo,-1,1,africa,NA,NA,1,Portuguese
+28,Cambodia,Cambodian riel,៛,KHR,Sen,-1,1,africa,NA,NA,1,Khmer
+29,Cameroon,Central African CFA franc,Fr,XAF,Centime,-1,1,africa,NA,NA,1,"English, French"
+30,Canada,Canadian dollar,$,CAD,Cent,-1,1,africa,NA,NA,1,"English, French"
+31,Central African Republic,Central African CFA franc,Fr,XAF,Centime,-1,1,africa,NA,NA,1,"French, Sango"
+32,Chad,Central African CFA franc,Fr,XAF,Centime,-1,1,africa,NA,NA,1,"French, Arabic"
+34,Chile,Chilean peso,$,CLP,Centavo,-1,1,africa,NA,NA,1,Spanish
+35,China,Renminbi,¥,CNY,Jiao,-1,1,africa,NA,NA,1,Chinese
+36,Colombia,Colombian peso,$,COP,Centavo,-1,1,africa,NA,NA,1,Spanish
+37,Comoros,Comorian franc,Fr,KMF,Centime,-1,1,africa,NA,NA,1,"Arabic, Comorian, French"
+38,DR Congo,Congolese franc,Fr,CDF,Centime,-1,1,africa,NA,NA,1,French
+,Congo,Central African CFA franc,Fr,XAF,Centime,,,,,,,French
+39,Costa Rica,Costa Rican colón,₡,CRC,Céntimo,-1,1,africa,NA,NA,1,Spanish
+40,Côte d'Ivoire,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,French
+41,Croatia,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,Croatian
+42,Cuba,Cuban peso,$,CUP,Centavo,-1,1,africa,NA,NA,1,Spanish
+43,Cyprus,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,"Greek, Turkish"
+44,Czech Republic,Czech koruna,Kč,CZK,Heller,-1,1,africa,NA,NA,1,"Czech, Slovak"
+45,Denmark,Danish krone,kr,DKK,Øre,-1,1,africa,NA,NA,1,Danish
+46,Djibouti,Djiboutian franc,Fr,DJF,Centime,-1,1,africa,NA,NA,1,"Arabic, French"
+47,Dominica,Eastern Caribbean dollar,$,XCD,Cent,-1,1,africa,NA,NA,1,English
+48,Dominican Republic,Dominican peso,$,DOP,Centavo,-1,1,africa,NA,NA,1,Spanish
+49,East Timor,United States dollar,$,USD,Centavo,-1,1,africa,NA,NA,1,"Portuguese, Tetum"
+50,Ecuador,United States dollar,$,USD,Centavo,-1,1,africa,NA,NA,1,"Spanish, Quechua"
+51,Egypt,Egyptian pound,LE,EGP,Piastre,-1,1,africa,NA,NA,1,Arabic
+52,El Salvador,United States dollar,$,USD,Cent,-1,1,africa,NA,NA,1,Spanish
+53,Equatorial Guinea,Central African CFA franc,Fr,XAF,Centime,-1,1,africa,NA,NA,1,"French, Portuguese, Spanish"
+54,Eritrea,Eritrean nakfa,Nkf,ERN,Cent,-1,1,africa,NA,NA,1,Tigrinya
+55,Estonia,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,Estonian
+56,Eswatini,Swazi lilangeni,L,SZL,Cent,-1,1,africa,NA,NA,1,"English, Swazi"
+57,Ethiopia,Ethiopian birr,Br,ETB,Santim,-1,1,africa,NA,NA,1,"Afar, Amharic, Oromo, Somali, Tigrinya"
 ,Faeroe Islands,Danish krone,kr,DKK,Øre,,,,,,,
-58,Falkland Islands,Falkland Islands pound,£,FKP,Penny,-1,1,africa,NA,NA,1,english
-,Fiji,Fijian dollar,$,FJD,Cent,,,,,,,
-59,Finland,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-60,France,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-62,Gabon,Central African CFA franc,Fr,XAF,Centime,-1,1,africa,NA,NA,1,english
-63,Gambia,Gambian dalasi,D,GMD,Butut,-1,1,africa,NA,NA,1,english
-64,Georgia,Georgian lari,₾,GEL,Tetri,-1,1,africa,NA,NA,1,english
-65,Germany,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-66,Ghana,Ghanaian cedi,₵,GHS,Pesewa,-1,1,africa,NA,NA,1,english
-67,Gibraltar,Gibraltar pound,£,GIP,Penny,-1,1,africa,NA,NA,1,english
-68,Greece,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-69,Grenada,Eastern Caribbean dollar,$,XCD,Cent,-1,1,africa,NA,NA,1,english
-70,Guatemala,Guatemalan quetzal,Q,GTQ,Centavo,-1,1,africa,NA,NA,1,english
-71,Guinea,Guinean franc,Fr,GNF,Centime,-1,1,africa,NA,NA,1,english
-72,Guinea-Bissau,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,english
-73,Guyana,Guyanese dollar,$,GYD,Cent,-1,1,africa,NA,NA,1,english
-74,Haiti,Haitian gourde,G,HTG,Centime,-1,1,africa,NA,NA,1,english
-76,Honduras,Honduran lempira,L,HNL,Centavo,-1,1,africa,NA,NA,1,english
-77,Hong Kong,Hong Kong dollar,$,HKD,Cent,-1,1,africa,NA,NA,1,english
-78,Hungary,Hungarian forint,Ft,HUF,Fillér,-1,1,africa,NA,NA,1,english
-79,Iceland,Icelandic króna,kr,ISK,Eyrir,-1,1,africa,NA,NA,1,english
-80,India,Indian rupee,₹,INR,Paisa,-1,1,africa,NA,NA,1,english
-81,Indonesia,Indonesian rupiah,Rp,IDR,Sen,-1,1,africa,NA,NA,1,english
-82,Iran,Iranian rial,Rl,IRR,Rial,-1,1,africa,NA,NA,1,english
-83,Iraq,Iraqi dinar,ID,IQD,Fils,-1,1,africa,NA,NA,1,english
-84,Ireland,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-85,Isle of Man,Manx pound,£,GBP,Penny,-1,1,africa,NA,NA,1,english
-86,Israel,Israeli new shekel,₪,ILS,Agora,-1,1,africa,NA,NA,1,english
-87,Italy,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-88,Jamaica,Jamaican dollar,$,JMD,Cent,-1,1,africa,NA,NA,1,english
-89,Japan,Japanese yen,¥,JPY,Sen,-1,1,africa,NA,NA,1,english
-90,Jordan,Jordanian dinar,JD,JOD,Piastre,-1,1,africa,NA,NA,1,english
-91,Kazakhstan,Kazakhstani tenge,₸,KZT,Tıyn,-1,1,africa,NA,NA,1,english
-92,Kenya,Kenyan shilling,Sh,KES,Cent,-1,1,africa,NA,NA,1,english
-,Kosovo,Euro,€,EUR,Cent,,,,,,,
-93,Kuwait,Kuwaiti dinar,KD,KWD,Fils,-1,1,africa,NA,NA,1,english
-94,Kyrgyzstan,Kyrgyz som,som,KGS,Tyiyn,-1,1,africa,NA,NA,1,english
-95,Laos,Lao kip,₭,LAK,Att,-1,1,africa,NA,NA,1,english
-96,Latvia,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-97,Lebanon,Lebanese pound,LL,LBP,Piastre,-1,1,africa,NA,NA,1,english
-98,Lesotho,Lesotho loti,M,LSL,Sente,-1,1,africa,NA,NA,1,english
-99,Liberia,Liberian dollar,$,LRD,Cent,-1,1,africa,NA,NA,1,english
-100,Libya,Libyan dinar,LD,LYD,Dirham,-1,1,africa,NA,NA,1,english
-101,Liechtenstein,Swiss franc,Fr,CHF,Rappen,-1,1,africa,NA,NA,1,english
-102,Lithuania,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-103,Luxembourg,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-104,Macau,Macanese pataca,MOP$,MOP,Avo,-1,1,africa,NA,NA,1,english
-105,Madagascar,Malagasy ariary,Ar,MGA,Iraimbilanja,-1,1,africa,NA,NA,1,english
-106,Malawi,Malawian kwacha,K,MWK,Tambala,-1,1,africa,NA,NA,1,english
-107,Malaysia,Malaysian ringgit,RM,MYR,Sen,-1,1,africa,NA,NA,1,english
-108,Maldives,Maldivian rufiyaa,Rf,MVR,Laari,-1,1,africa,NA,NA,1,english
-109,Mali,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,english
-110,Malta,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-111,Mauritania,Mauritanian ouguiya,UM,MRU,Khoums,-1,1,africa,NA,NA,1,english
-112,Mauritius,Mauritian rupee,Re,MUR,Cent,-1,1,africa,NA,NA,1,english
-114,Mexico,Mexican peso,$,MXN,Centavo,-1,1,africa,NA,NA,1,english
-115,Moldova,Moldovan leu,Leu,MDL,Ban,-1,1,africa,NA,NA,1,english
-116,Monaco,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-117,Mongolia,Mongolian tögrög,₮,MNT,Möngö,-1,1,africa,NA,NA,1,english
-118,Montenegro,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-119,Morocco,Moroccan dirham,DH,MAD,Centime,-1,1,africa,NA,NA,1,english
-120,Mozambique,Mozambican metical,Mt,MZN,Centavo,-1,1,africa,NA,NA,1,english
-121,Myanmar,Burmese kyat,K,MMK,Pya,-1,1,africa,NA,NA,1,english
-122,Namibia,Namibian dollar,$,NAD,Cent,-1,1,africa,NA,NA,1,english
-123,Nepal,Nepalese rupee,Re,NPR,Paisa,-1,1,africa,NA,NA,1,english
-124,Netherlands,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
+58,Falkland Islands,Falkland Islands pound,£,FKP,Penny,-1,1,africa,NA,NA,1,
+,Fiji,Fijian dollar,$,FJD,Cent,,,,,,,"English, Fijian, Hindi"
+59,Finland,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,"Finnish, Swedish"
+60,France,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,French
+62,Gabon,Central African CFA franc,Fr,XAF,Centime,-1,1,africa,NA,NA,1,French
+63,Gambia,Gambian dalasi,D,GMD,Butut,-1,1,africa,NA,NA,1,English
+64,Georgia,Georgian lari,₾,GEL,Tetri,-1,1,africa,NA,NA,1,Georgian
+65,Germany,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,German
+66,Ghana,Ghanaian cedi,₵,GHS,Pesewa,-1,1,africa,NA,NA,1,English
+67,Gibraltar,Gibraltar pound,£,GIP,Penny,-1,1,africa,NA,NA,1,English
+68,Greece,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,Greek
+69,Grenada,Eastern Caribbean dollar,$,XCD,Cent,-1,1,africa,NA,NA,1,English
+70,Guatemala,Guatemalan quetzal,Q,GTQ,Centavo,-1,1,africa,NA,NA,1,Spanish
+71,Guinea,Guinean franc,Fr,GNF,Centime,-1,1,africa,NA,NA,1,French
+72,Guinea-Bissau,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,Portuguese
+73,Guyana,Guyanese dollar,$,GYD,Cent,-1,1,africa,NA,NA,1,English
+74,Haiti,Haitian gourde,G,HTG,Centime,-1,1,africa,NA,NA,1,"French, Creole"
+76,Honduras,Honduran lempira,L,HNL,Centavo,-1,1,africa,NA,NA,1,Spanish
+77,Hong Kong,Hong Kong dollar,$,HKD,Cent,-1,1,africa,NA,NA,1,"English, Chinese"
+78,Hungary,Hungarian forint,Ft,HUF,Fillér,-1,1,africa,NA,NA,1,Hungarian
+79,Iceland,Icelandic króna,kr,ISK,Eyrir,-1,1,africa,NA,NA,1,Icelandic
+80,India,Indian rupee,₹,INR,Paisa,-1,1,africa,NA,NA,1,"Hindi, English"
+81,Indonesia,Indonesian rupiah,Rp,IDR,Sen,-1,1,africa,NA,NA,1,Indonesian
+82,Iran,Iranian rial,Rl,IRR,Rial,-1,1,africa,NA,NA,1,Persian
+83,Iraq,Iraqi dinar,ID,IQD,Fils,-1,1,africa,NA,NA,1,"Arabic, Kurdish"
+84,Ireland,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,"Irish, English"
+85,Isle of Man,Manx pound,£,GBP,Penny,-1,1,africa,NA,NA,1,"English, Manx"
+86,Israel,Israeli new shekel,₪,ILS,Agora,-1,1,africa,NA,NA,1,Hebrew
+87,Italy,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,Italian
+88,Jamaica,Jamaican dollar,$,JMD,Cent,-1,1,africa,NA,NA,1,English
+89,Japan,Japanese yen,¥,JPY,Sen,-1,1,africa,NA,NA,1,Japanese
+90,Jordan,Jordanian dinar,JD,JOD,Piastre,-1,1,africa,NA,NA,1,Arabic
+91,Kazakhstan,Kazakhstani tenge,₸,KZT,Tıyn,-1,1,africa,NA,NA,1,"Kazakh, Russian"
+92,Kenya,Kenyan shilling,Sh,KES,Cent,-1,1,africa,NA,NA,1,"English, Swahili"
+,Kosovo,Euro,€,EUR,Cent,,,,,,,"Albanian, Serbian"
+93,Kuwait,Kuwaiti dinar,KD,KWD,Fils,-1,1,africa,NA,NA,1,Arabic
+94,Kyrgyzstan,Kyrgyz som,som,KGS,Tyiyn,-1,1,africa,NA,NA,1,"Kyrgyz, Russian"
+95,Laos,Lao kip,₭,LAK,Att,-1,1,africa,NA,NA,1,Lao
+96,Latvia,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,Latvian
+97,Lebanon,Lebanese pound,LL,LBP,Piastre,-1,1,africa,NA,NA,1,Arabic
+98,Lesotho,Lesotho loti,M,LSL,Sente,-1,1,africa,NA,NA,1,"Sotho, English"
+99,Liberia,Liberian dollar,$,LRD,Cent,-1,1,africa,NA,NA,1,English
+100,Libya,Libyan dinar,LD,LYD,Dirham,-1,1,africa,NA,NA,1,Arabic
+101,Liechtenstein,Swiss franc,Fr,CHF,Rappen,-1,1,africa,NA,NA,1,German
+102,Lithuania,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,Lithuanian
+103,Luxembourg,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,"French, German, Luxembourgish"
+104,Macau,Macanese pataca,MOP$,MOP,Avo,-1,1,africa,NA,NA,1,
+105,Madagascar,Malagasy ariary,Ar,MGA,Iraimbilanja,-1,1,africa,NA,NA,1,
+106,Malawi,Malawian kwacha,K,MWK,Tambala,-1,1,africa,NA,NA,1,
+107,Malaysia,Malaysian ringgit,RM,MYR,Sen,-1,1,africa,NA,NA,1,
+108,Maldives,Maldivian rufiyaa,Rf,MVR,Laari,-1,1,africa,NA,NA,1,
+109,Mali,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,
+110,Malta,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,
+111,Mauritania,Mauritanian ouguiya,UM,MRU,Khoums,-1,1,africa,NA,NA,1,
+112,Mauritius,Mauritian rupee,Re,MUR,Cent,-1,1,africa,NA,NA,1,
+114,Mexico,Mexican peso,$,MXN,Centavo,-1,1,africa,NA,NA,1,
+115,Moldova,Moldovan leu,Leu,MDL,Ban,-1,1,africa,NA,NA,1,
+116,Monaco,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,
+117,Mongolia,Mongolian tögrög,₮,MNT,Möngö,-1,1,africa,NA,NA,1,
+118,Montenegro,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,
+119,Morocco,Moroccan dirham,DH,MAD,Centime,-1,1,africa,NA,NA,1,
+120,Mozambique,Mozambican metical,Mt,MZN,Centavo,-1,1,africa,NA,NA,1,
+121,Myanmar,Burmese kyat,K,MMK,Pya,-1,1,africa,NA,NA,1,
+122,Namibia,Namibian dollar,$,NAD,Cent,-1,1,africa,NA,NA,1,
+123,Nepal,Nepalese rupee,Re,NPR,Paisa,-1,1,africa,NA,NA,1,
+124,Netherlands,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,
 ,New Zealand,New Zealand dollar,$,NZD,Cent,,,,,,,
-125,Nicaragua,Nicaraguan córdoba,C$,NIO,Centavo,-1,1,africa,NA,NA,1,english
-126,Niger,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,english
-127,Nigeria,Nigerian naira,₦,NGN,Kobo,-1,1,africa,NA,NA,1,english
-128,North Korea,North Korean won,₩,KPW,Chon,-1,1,africa,NA,NA,1,english
-129,North Macedonia,Macedonian denar,DEN,MKD,Deni,-1,1,africa,NA,NA,1,english
-130,Norway,Norwegian krone,kr,NOK,Øre,-1,1,africa,NA,NA,1,english
-131,Oman,Omani rial,RO,OMR,Baisa,-1,1,africa,NA,NA,1,english
-132,Pakistan,Pakistani rupee,Re,PKR,Paisa,-1,1,africa,NA,NA,1,english
-133,Panama,Panamanian balboa,B/,PAB,Centésimo,-1,1,africa,NA,NA,1,english
-134,Paraguay,Paraguayan guaraní,₲,PYG,Céntimo,-1,1,africa,NA,NA,1,english
-135,Peru,Peruvian sol,S/,PEN,Céntimo,-1,1,africa,NA,NA,1,english
-136,Philippines,Philippine peso,₱,PHP,Sentimo,-1,1,africa,NA,NA,1,english
-137,Poland,Polish złoty,zł,PLN,Grosz,-1,1,africa,NA,NA,1,english
-138,Portugal,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-139,Qatar,Qatari riyal,QR,QAR,Dirham,-1,1,africa,NA,NA,1,english
-141,Romania,Romanian leu,Leu,RON,Ban,-1,1,africa,NA,NA,1,english
-142,Russia,Russian ruble,₽,RUB,Kopeck,-1,1,africa,NA,NA,1,english
-143,Rwanda,Rwandan franc,Fr,RWF,Centime,-1,1,africa,NA,NA,1,english
-144,Saint Helena,Saint Helena pound,£,SHP,Penny,-1,1,africa,NA,NA,1,english
-145,Saint Kitts and Nevis,Eastern Caribbean dollar,$,XCD,Cent,-1,1,africa,NA,NA,1,english
-146,Saint Lucia,Eastern Caribbean dollar,$,XCD,Cent,-1,1,africa,NA,NA,1,english
-147,Saint Vincent and the Grenadines,Eastern Caribbean dollar,$,XCD,Cent,-1,1,africa,NA,NA,1,english
-148,San Marino,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-149,Sao Tome & Principe,São Tomé and Príncipe dobra,Db,STN,Cêntimo,,1,africa,NA,NA,1,english
-150,Saudi Arabia,Saudi riyal,Rl or Rls (pl.),SAR,Halala,-1,1,africa,NA,NA,1,english
-151,Senegal,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,english
-152,Serbia,Serbian dinar,DIN,RSD,Para,-1,1,africa,NA,NA,1,english
-153,Seychelles,Seychellois rupee,Re,SCR,Cent,-1,1,africa,NA,NA,1,english
-154,Sierra Leone,Sierra Leonean leone,Le,SLE,Cent,-1,1,africa,NA,NA,1,english
-155,Singapore,Singapore dollar,$,SGD,Cent,-1,1,africa,NA,NA,1,english
-156,Slovakia,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-157,Slovenia,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,english
-158,Somalia,Somali shilling,Sh,SOS,Cent,-1,1,africa,NA,NA,1,english
-159,South Africa,South African rand,R,ZAR,Cent,-1,1,africa,NA,NA,1,english
-160,South Korea,South Korean won,₩,KRW,Jeon,-1,1,africa,NA,NA,1,english
-161,South Sudan,South Sudanese pound,(none),SSP,Piaster,-1,1,africa,NA,NA,1,english
-162,Spain,Euro,€,EUR,Cent,,1,africa,NA,NA,1,english
-163,Sri Lanka,Sri Lankan rupee,Re or Rs (pl.),LKR,Cent,-1,1,africa,NA,NA,1,english
-164,Palestine,Israeli new shekel,₪,ILS,Agora,,1,africa,NA,NA,1,english
-165,Sudan,Sudanese pound,LS,SDG,Piastre,-1,1,africa,NA,NA,1,english
-166,Suriname,Surinamese dollar,$,SRD,Cent,-1,1,africa,NA,NA,1,english
-167,Sweden,Swedish krona,kr,SEK,Öre,-1,1,africa,NA,NA,1,english
-168,Switzerland,Swiss franc,Fr,CHF,Rappen,-1,1,africa,NA,NA,1,english
-169,Syria,Syrian pound,LS,SYP,Piastre,-1,1,africa,NA,NA,1,english
-170,Taiwan,New Taiwan dollar,$,TWD,Cent,-1,1,africa,NA,NA,1,english
-171,Tajikistan,Tajikistani somoni,SM,TJS,Diram,-1,1,africa,NA,NA,1,english
-172,Tanzania,Tanzanian shilling,Sh,TZS,Cent,-1,1,africa,NA,NA,1,english
-173,Thailand,Thai baht,฿,THB,Satang,-1,1,africa,NA,NA,1,english
-176,Togo,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,english
-177,Trinidad and Tobago,Trinidad and Tobago dollar,$,TTD,Cent,-1,1,africa,NA,NA,1,english
-178,Tunisia,Tunisian dinar,DT,TND,Millime,-1,1,africa,NA,NA,1,english
-179,Turkey,Turkish lira,₺,TRY,Kuruş,-1,1,africa,NA,NA,1,english
-180,Turkmenistan,Turkmenistani manat,m,TMT,Tenge,-1,1,africa,NA,NA,1,english
-181,Uganda,Ugandan shilling,Sh,UGX,None,-1,1,africa,NA,NA,1,english
-182,Ukraine,Ukrainian hryvnia,₴,UAH,Kopeck,-1,1,africa,NA,NA,1,english
-183,United Arab Emirates,United Arab Emirates dirham,Dh,AED,Fils,-1,1,africa,NA,NA,1,english
-184,United Kingdom,Sterling,£,GBP,Penny,-1,1,africa,NA,NA,1,english
-185,United States,United States dollar,$,USD,Cent,-1,1,africa,NA,NA,1,english
-186,Uruguay,Uruguayan peso,$,UYU,Centésimo,-1,1,africa,NA,NA,1,english
-187,Uzbekistan,Uzbekistani sum,soum,UZS,Tiyin,-1,1,africa,NA,NA,1,english
-188,Venezuela,Venezuelan sovereign bolívar,Bs.S,VES,Céntimo,-1,1,africa,NA,NA,1,english
-189,Vietnam,Vietnamese đồng,₫,VND,Hào,-1,1,africa,NA,NA,1,english
-191,Yemen,Yemeni rial,Rl,YER,Fils,-1,1,africa,NA,NA,1,english
-192,Zambia,Zambian kwacha,K,ZMW,Ngwee,-1,1,africa,NA,NA,1,english
-193,Zimbabwe,Zimbabwean dollar,$,None,Cent,-1,1,africa,NA,NA,1,english
+125,Nicaragua,Nicaraguan córdoba,C$,NIO,Centavo,-1,1,africa,NA,NA,1,
+126,Niger,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,
+127,Nigeria,Nigerian naira,₦,NGN,Kobo,-1,1,africa,NA,NA,1,
+128,North Korea,North Korean won,₩,KPW,Chon,-1,1,africa,NA,NA,1,
+129,North Macedonia,Macedonian denar,DEN,MKD,Deni,-1,1,africa,NA,NA,1,
+130,Norway,Norwegian krone,kr,NOK,Øre,-1,1,africa,NA,NA,1,
+131,Oman,Omani rial,RO,OMR,Baisa,-1,1,africa,NA,NA,1,
+132,Pakistan,Pakistani rupee,Re,PKR,Paisa,-1,1,africa,NA,NA,1,
+133,Panama,Panamanian balboa,B/,PAB,Centésimo,-1,1,africa,NA,NA,1,
+134,Paraguay,Paraguayan guaraní,₲,PYG,Céntimo,-1,1,africa,NA,NA,1,
+135,Peru,Peruvian sol,S/,PEN,Céntimo,-1,1,africa,NA,NA,1,
+136,Philippines,Philippine peso,₱,PHP,Sentimo,-1,1,africa,NA,NA,1,
+137,Poland,Polish złoty,zł,PLN,Grosz,-1,1,africa,NA,NA,1,
+138,Portugal,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,
+139,Qatar,Qatari riyal,QR,QAR,Dirham,-1,1,africa,NA,NA,1,
+141,Romania,Romanian leu,Leu,RON,Ban,-1,1,africa,NA,NA,1,
+142,Russia,Russian ruble,₽,RUB,Kopeck,-1,1,africa,NA,NA,1,
+143,Rwanda,Rwandan franc,Fr,RWF,Centime,-1,1,africa,NA,NA,1,
+144,Saint Helena,Saint Helena pound,£,SHP,Penny,-1,1,africa,NA,NA,1,
+145,Saint Kitts and Nevis,Eastern Caribbean dollar,$,XCD,Cent,-1,1,africa,NA,NA,1,
+146,Saint Lucia,Eastern Caribbean dollar,$,XCD,Cent,-1,1,africa,NA,NA,1,
+147,Saint Vincent and the Grenadines,Eastern Caribbean dollar,$,XCD,Cent,-1,1,africa,NA,NA,1,
+148,San Marino,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,
+149,Sao Tome & Principe,São Tomé and Príncipe dobra,Db,STN,Cêntimo,,1,africa,NA,NA,1,
+150,Saudi Arabia,Saudi riyal,Rl or Rls (pl.),SAR,Halala,-1,1,africa,NA,NA,1,
+151,Senegal,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,
+152,Serbia,Serbian dinar,DIN,RSD,Para,-1,1,africa,NA,NA,1,
+153,Seychelles,Seychellois rupee,Re,SCR,Cent,-1,1,africa,NA,NA,1,
+154,Sierra Leone,Sierra Leonean leone,Le,SLE,Cent,-1,1,africa,NA,NA,1,
+155,Singapore,Singapore dollar,$,SGD,Cent,-1,1,africa,NA,NA,1,
+156,Slovakia,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,
+157,Slovenia,Euro,€,EUR,Cent,-1,1,africa,NA,NA,1,
+158,Somalia,Somali shilling,Sh,SOS,Cent,-1,1,africa,NA,NA,1,
+159,South Africa,South African rand,R,ZAR,Cent,-1,1,africa,NA,NA,1,
+160,South Korea,South Korean won,₩,KRW,Jeon,-1,1,africa,NA,NA,1,
+161,South Sudan,South Sudanese pound,(none),SSP,Piaster,-1,1,africa,NA,NA,1,
+162,Spain,Euro,€,EUR,Cent,,1,africa,NA,NA,1,
+163,Sri Lanka,Sri Lankan rupee,Re or Rs (pl.),LKR,Cent,-1,1,africa,NA,NA,1,
+164,Palestine,Israeli new shekel,₪,ILS,Agora,,1,africa,NA,NA,1,
+165,Sudan,Sudanese pound,LS,SDG,Piastre,-1,1,africa,NA,NA,1,
+166,Suriname,Surinamese dollar,$,SRD,Cent,-1,1,africa,NA,NA,1,
+167,Sweden,Swedish krona,kr,SEK,Öre,-1,1,africa,NA,NA,1,
+168,Switzerland,Swiss franc,Fr,CHF,Rappen,-1,1,africa,NA,NA,1,
+169,Syria,Syrian pound,LS,SYP,Piastre,-1,1,africa,NA,NA,1,
+170,Taiwan,New Taiwan dollar,$,TWD,Cent,-1,1,africa,NA,NA,1,
+171,Tajikistan,Tajikistani somoni,SM,TJS,Diram,-1,1,africa,NA,NA,1,
+172,Tanzania,Tanzanian shilling,Sh,TZS,Cent,-1,1,africa,NA,NA,1,
+173,Thailand,Thai baht,฿,THB,Satang,-1,1,africa,NA,NA,1,
+176,Togo,West African CFA franc,Fr,XOF,Centime,-1,1,africa,NA,NA,1,
+177,Trinidad and Tobago,Trinidad and Tobago dollar,$,TTD,Cent,-1,1,africa,NA,NA,1,
+178,Tunisia,Tunisian dinar,DT,TND,Millime,-1,1,africa,NA,NA,1,
+179,Turkey,Turkish lira,₺,TRY,Kuruş,-1,1,africa,NA,NA,1,
+180,Turkmenistan,Turkmenistani manat,m,TMT,Tenge,-1,1,africa,NA,NA,1,
+181,Uganda,Ugandan shilling,Sh,UGX,None,-1,1,africa,NA,NA,1,
+182,Ukraine,Ukrainian hryvnia,₴,UAH,Kopeck,-1,1,africa,NA,NA,1,
+183,United Arab Emirates,United Arab Emirates dirham,Dh,AED,Fils,-1,1,africa,NA,NA,1,
+184,United Kingdom,Sterling,£,GBP,Penny,-1,1,africa,NA,NA,1,
+185,United States,United States dollar,$,USD,Cent,-1,1,africa,NA,NA,1,
+186,Uruguay,Uruguayan peso,$,UYU,Centésimo,-1,1,africa,NA,NA,1,
+187,Uzbekistan,Uzbekistani sum,soum,UZS,Tiyin,-1,1,africa,NA,NA,1,
+188,Venezuela,Venezuelan sovereign bolívar,Bs.S,VES,Céntimo,-1,1,africa,NA,NA,1,
+189,Vietnam,Vietnamese đồng,₫,VND,Hào,-1,1,africa,NA,NA,1,
+191,Yemen,Yemeni rial,Rl,YER,Fils,-1,1,africa,NA,NA,1,
+192,Zambia,Zambian kwacha,K,ZMW,Ngwee,-1,1,africa,NA,NA,1,
+193,Zimbabwe,Zimbabwean dollar,$,None,Cent,-1,1,africa,NA,NA,1,

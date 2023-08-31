@@ -1,6 +1,7 @@
 #Fetch relevant country data pack
 data(country_money)
 data(country_names)
+data(country_language)
 
 #' Names of all countries
 #'
