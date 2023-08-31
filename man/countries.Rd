@@ -3,7 +3,7 @@
 \docType{data}
 \name{COUNTRIES}
 \alias{COUNTRIES}
-\title{Names of all countries}
+\title{Names of all countries in upper case}
 \format{
 An object of class \code{character} of length 193.
 }
@@ -11,20 +11,20 @@ An object of class \code{character} of length 193.
 COUNTRIES
 }
 \value{
-Names of all countries in the globe
+Names of all countries in the globe in upper case
 }
 \description{
-Fetch the names of all countries
+Fetch the names of all countries in upper case
 }
 \examples{
 # list all the countries
-countries
+COUNTRIES
 
 # list only 5 countries
-countries[1:5]
+COUNTRIES[1:5]
 
 # create a dataset with all countries of the world
-data.frame(ID = 1, Names = countries)
+data.frame(ID = 1, Names = COUNTRIES)
 
 }
 \keyword{datasets}
