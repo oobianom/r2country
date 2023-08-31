@@ -26,3 +26,4 @@ Encoding: UTF-8
 VignetteBuilder: knitr
 Language: en-US
 RoxygenNote: 7.2.3
+LazyData: true
