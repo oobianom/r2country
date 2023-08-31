@@ -3,7 +3,7 @@
 \docType{data}
 \name{COUNTRIES}
 \alias{COUNTRIES}
-\title{Countries in upper case}
+\title{Names of all countries}
 \format{
 An object of class \code{character} of length 193.
 }
