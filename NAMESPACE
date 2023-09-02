@@ -2,4 +2,4 @@
 
 export(COUNTRIES)
 export(countries)
-export(states)
+export(getCTRY)

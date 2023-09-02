@@ -5,16 +5,17 @@ names(countries1)=countries1
 #'
 #' Fetch all country states
 #'
-#' @rdname countrystates
+#' @rdname countryitems
 #' @format NULL
 #' @docType NULL
 #' @keywords NULL
 #' @export
-states<-lapply(countries,function(i){
+getCTRY<-lapply(countries1,function(i){
   rlang::new_function(
-    args = rlang::exprs(... = , .noWS = NULL, .renderHook = NULL),
+    args = rlang::exprs(item = c("currency","language","callingcode","population"), as.of = 2023),
     rlang::expr({
-      ggg = !!i
+      ctry.name = !!i
+      item = match.arg(item)
       print(ggg)
       print("heelo")
     }),
