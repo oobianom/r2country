@@ -15,7 +15,10 @@
 #' data.frame(ID = 1, Names = countries)
 #'
 #' @export
-countries <- as.character(country_names$name)
+countries <- unlist(country_names$name)
+
+
+
 
 #' Names of all countries in upper case
 #'
