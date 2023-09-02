@@ -1,4 +1,6 @@
-names(countries)=countries
+countries1 <- countries
+names(countries1)=countries1
+
 #' Get country states
 #'
 #' Fetch all country states
