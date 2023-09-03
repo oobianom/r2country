@@ -9,16 +9,16 @@ Africa - Cape Verde - Praia
 Africa - Central African Republic - Bangui
 Africa - Chad - N'Djamena
 Africa - Comoros - Moroni
-Africa - Republic of the Congo - Brazzaville
+Africa - Congo - Brazzaville
 Africa - DR Congo - Kinshasa
 Africa - Côte d'Ivoire - Yamoussoukro
 Africa - Djibouti - Djibouti
 Africa - Equatorial Guinea - Malabo
 Africa - Egypt - Cairo
 Africa - Eritrea - Asmara
-Africa - Ethiopia (Abyssinia) - Addis Ababa
+Africa - Ethiopia - Addis Ababa
 Africa - Gabon - Libreville
-Africa - The Gambia - Banjul
+Africa - Gambia - Banjul
 Africa - Ghana - Accra
 Africa - Guinea - Conakry
 Africa - Guinea-Bissau - Bissau
@@ -31,12 +31,11 @@ Africa - Malawi - Lilongwe
 Africa - Mali - Bamako
 Africa - Mauritania - Nouakchott
 Africa - Mauritius - Port Louis
-Africa - Morocco (Al Maghrib) - Rabat
+Africa - Morocco - Rabat
 Africa - Mozambique - Maputo
 Africa - Namibia - Windhoek
 Africa - Niger - Niamey
 Africa - Nigeria - Abuja
-Africa - Réunion (territory of France)
 Africa - Rwanda - Kigali
 Africa - São Tomé and Príncipe - São Tomé
 Africa - Senegal - Dakar
@@ -46,24 +45,24 @@ Africa - Somalia - Mogadishu
 Africa - South Africa - Pretoria
 Africa - South Sudan - Juba
 Africa - Sudan - Khartoum
-Africa - Swaziland (Eswatini) - Mbabane
+Africa - Swaziland - Mbabane
 Africa - Tanzania - Dodoma
 Africa - Togo - Lome
 Africa - Tunisia - Tunis
 Africa - Uganda - Kampala
-Africa - Western Sahara - El Aaiún (disputed)
+Africa - Western Sahara - El Aaiún
 Africa - Zambia - Lusaka
 Africa - Zimbabwe - Harare
 Asia - Afghanistan - Kabul
 Asia - Armenia - Yerevan
 Asia - Azerbaijan - Baku
 Asia - Bahrain - Manama
-Asia - Bangladesh (বাংলাদেশ) - Dhaka (ঢাকা)
+Asia - Bangladesh- Dhaka
 Asia - Bhutan - Thimphu
 Asia - Brunei - Bandar Seri Begawan
-Asia - Cambodia (Kampuchea) - Phnom Penh
+Asia - Cambodia - Phnom Penh
 Asia - China - Beijing
-Asia - East Timor (Timor Leste) - Dili
+Asia - East Timor - Dili
 Asia - Georgia - Tbilisi
 Asia - India - New Delhi
 Asia - Indonesia - Jakarta
@@ -71,16 +70,16 @@ Asia - Iran - Tehran
 Asia - Iraq - Baghdad
 Asia - Israel - Jerusalem
 Asia - Japan - Tokyo
-Asia - Jordan (Al Urdun) - Amman
+Asia - Jordan - Amman
 Asia - Kazakhstan - Nur-Sultan
 Asia - Kuwait - Kuwait City
 Asia - Kyrgyzstan - Bishkek
 Asia - Laos - Vientiane
-Asia - Lebanon (Lubnan) - Beirut
+Asia - Lebanon - Beirut
 Asia - Malaysia - Kuala Lumpur
 Asia - The Maldives - Malé
 Asia - Mongolia - Ulaanbaatar
-Asia - Myanmar (Burma) - Naypyidaw
+Asia - Myanmar - Naypyidaw
 Asia - Nepal - Kathmandu
 Asia - North Korea - Pyongyang
 Asia - Oman - Muscat
@@ -88,103 +87,102 @@ Asia - Pakistan - Islamabad
 Asia - Palestine - Ramallah
 Asia - The Philippines - Manila
 Asia - Qatar - Doha
-Asia - Russia - Moscow (Russia is a part of Asia geographically, but, politically, it is a part of Europe)
+Asia - Russia1 - Moscow
 Asia - Saudi Arabia - Riyadh
 Asia - Singapore - Singapore
 Asia - South Korea - Seoul
-Asia - Sri Lanka - Sri Jayawardenapura Kotte (administrative), Colombo (commercial)
+Asia - Sri Lanka - Sri Jayawardenapura Kotte and Colombo
 Asia - Syria - Damascus
-Asia - Taiwan - Taipei (China continues to maintain its sovereignty claim over the territory. Not a UN member, but has formal diplomatic relations with 12 of the 193 United Nations member states)
+Asia - Taiwan - Taipei
 Asia - Tajikistan - Dushanbe
-Asia - Thailand (Muang Thai) - Bangkok
-Asia - Turkey (Türkiye) - Ankara
+Asia - Thailand - Bangkok
+Asia - Turkey - Ankara
 Asia - Turkmenistan - Aşgabat
 Asia - United Arab Emirates - Abu Dhabi
 Asia - Uzbekistan - Tashkent
 Asia - Vietnam - Hanoi
 Asia - Yemen - Sana'a
-Europe - Albania (Shqipëria) - Tirana
+Europe - Albania - Tirana
 Europe - Andorra - Andorra la Vella
-Europe - Austria (Österreich) - Vienna
-Europe - Belarus (Беларусь) - Minsk
-Europe - Belgium (Dutch: België, French: Belgique, German: Belgien) - Brussels
-Europe - Bosnia and Herzegovina (Bosna i Hercegovina) - Sarajevo
-Europe - Bulgaria (България) - Sofia
-Europe - Croatia (Hrvatska) - Zagreb
-Europe - Cyprus (Κύπρος) - Nicosia
-Europe - Czech Republic (Česko) - Prague
-Europe - Denmark (Danmark) - Copenhagen
-Europe - Estonia (Eesti) - Tallinn
-Europe - Finland (Suomi) - Helsinki
+Europe - Austria - Vienna
+Europe - Belarus - Minsk
+Europe - Belgium - Brussels
+Europe - Bosnia and Herzegovina - Sarajevo
+Europe - Bulgaria - Sofia
+Europe - Croatia - Zagreb
+Europe - Cyprus - Nicosia
+Europe - Czech Republic - Prague
+Europe - Denmark - Copenhagen
+Europe - Estonia - Tallinn
+Europe - Finland - Helsinki
 Europe - France - Paris
 Europe - Georgia - Tbilisi
-Europe - Germany (Deutschland) - Berlin
-Europe - Greece (Ελλάδα) - Athens
-Europe - Hungary (Magyarország) - Budapest
-Europe - Iceland** (Island) - Reykjavik
-Europe - Republic of Ireland (Éire) - Dublin
-Europe - Italy (Italia) - Rome
-Europe - Kosovo** - Pristina (Serbia continues to maintain its sovereignty claim over Kosovo. Not a UN member, but has formal diplomatic relations with 101 of the 193 United Nations member states)
-Europe - Latvia (Latvija) - Riga
+Europe - Germany - Berlin
+Europe - Greece - Athens
+Europe - Hungary - Budapest
+Europe - Iceland - Reykjavik
+Europe - Ireland - Dublin
+Europe - Italy - Rome
+Europe - Kosovo - Pristina
+Europe - Latvia - Riga
 Europe - Liechtenstein - Vaduz
-Europe - Lithuania (Lietuva) - Vilnius
+Europe - Lithuania - Vilnius
 Europe - Luxembourg - Luxembourg City
-Europe - North Macedonia (Македонија) - Skopje
+Europe - North Macedonia - Skopje
 Europe - Malta - Valletta
 Europe - Moldova - Chisinau
 Europe - Monaco - Monte Carlo Quarter
-Europe - Montenegro (Crna Gora, Црна Гора) - Podgorica
-Europe - Netherlands (Nederland) - Amsterdam (Capital), The Hague (Government)
-Europe - Norway (Norge) - Oslo
-Europe - Poland (Polska) - Warsaw
+Europe - Montenegro - Podgorica
+Europe - Netherlands - Amsterdam
+Europe - Norway - Oslo
+Europe - Poland - Warsaw
 Europe - Portugal - Lisbon
 Europe - Romania - Bucharest
-Europe - Russia** Moscow (Europe up to the Ural Mountains; Asia: the rest to Vladivostok)
+Europe - Russia - Moscow
 Europe - San Marino - San Marino
-Europe - Serbia (Србија) - Belgrade
-Europe - Slovakia (Slovensko) - Bratislava
-Europe - Slovenia (Slovenija) - Ljubljana
-Europe - Spain (España) - Madrid
-Europe - Sweden (Sverige) - Stockholm
+Europe - Serbia - Belgrade
+Europe - Slovakia - Bratislava
+Europe - Slovenia - Ljubljana
+Europe - Spain - Madrid
+Europe - Sweden - Stockholm
 Europe - Switzerland - Bern
-Europe - Turkey (Türkiye) - Ankara
-Europe - Ukraine (Україна) - Kyiv
+Europe - Turkey - Ankara
+Europe - Ukraine - Kyiv
 Europe - United Kingdom - London
 North America - Canada - Ottawa
 North America - Mexico - Mexico City
-North America - United States of America - Washington, District of Columbia
-North America - Navassa Island - Washington, D.C. (territory of U.S.)
-North America - Puerto Rico - San Juan (territory of U.S.)
-North America - US Virgin Islands - Charlotte Amalie (territory of U.S.)
+North America - United States of America - Washington, D.C
+North America - Navassa Island - Washington, D.C.
+North America - Puerto Rico - San Juan
+North America - US Virgin Islands - Charlotte Amalie
 North America - Dominican Republic - Santo Domingo
 North America - Cuba - Havana
-North America - Greenland (territory of Denmark)
+North America - Greenland - Nuuk
 North America - Haiti - Port-au-Prince
 North America - Belize - Belmopan
 North America - Costa Rica - San José
 North America - El Salvador - San Salvador
 North America - Guatemala - Guatemala City
 North America - Honduras - Tegucigalpa
-North America - Guadeloupe (territory of France)
-North America - Martinique (territory of France)
+North America - Guadeloupe - Basse-Terre
+North America - Martinique - Fort-de-France
 North America - Nicaragua - Managua
 North America - Panama - Panama City
 North America - Jamaica - Kingston
 North America - Bahamas - Nassau
 North America - Barbados - Bridgetown
 North America - Dominica - Roseau
-South America - Brazil (Brasil) - Brasília
+South America - Brazil - Brasília
 South America - Argentina - Buenos Aires
 South America - Bolivia - Sucré
 South America - Chile - Santiago
 South America - Colombia - Bogotá
 South America - Ecuador - Quito
-South America - Falkland Islands - Stanley (territory of U.K.)
-South America - French Guiana - Cayenne (territory of France)
+South America - Falkland Islands - Stanley
+South America - French Guiana - Cayenne
 South America - Guyana - Georgetown
 South America - Paraguay - Asunción
 South America - Peru - Lima
-South America - South Georgia and the South Sandwich Islands - (territory of U.K.)
 South America - Suriname - Paramaribo
 South America - Trinidad and Tobago - Port of Spain
 South America - Uruguay - Montevideo
@@ -195,7 +193,6 @@ Oceania - New Zealand - Wellington
 Oceania - Federated States of Micronesia - Palikir
 Oceania - Kiribati - South Tarawa
 Oceania - Marshall Islands - Majuro
-Oceania - Nauru - no capital; biggest city is Yaren
 Oceania - Palau - Ngerulmud
 Oceania - Papua New Guinea - Port Moresby
 Oceania - Samoa - Apia
