@@ -30,12 +30,41 @@ getCTRY<-lapply(countries1,function(i){
 # })
 
 
-#' @format NULL
-#' @docType NULL
+#' Fetch countries that start with specified characters
+#'
+#' Subset and return countries given a specified characters to search
+#'
+#' @param char character to search for
+#' @param full.list whether to return only name of country or full list
+#'
+#' @return country data list matching a specified character
+#'
+#' @seealso [countryEndsWith()] for country search ending in specified character, and [countryHas()] for countries that contain specified characters.
+#'
 #' @keywords NULL
+#'
+#' @examples
+#' # task 1: get only names of countries that start with "A" or "a"
+#' # note that the search in case-insensitive
+#' countryStartsWith("A", full.list = F)
+#'
+#' # task 2: get only names of countries that start with "No" or "no"
+#' countryStartsWith("no", full.list = F)
+#'
+#' # task 3: repeat task 2, but return full list for each country
+#' countryStartsWith("no")
+#'
 #' @export
-countryStartsWith <- function(char, as.list = TRUE){
-
+countryStartsWith <- function(char, full.list = TRUE){
+  # filter data
+  dcntry <- data.pck.cntry[startsWith(tolower(data.pck.cntry$name),tolower(char)),]
+  if(nrow(dcntry)){
+    # return results if > 0
+    if(full.list) split(dcntry, seq(nrow(dcntry))) else unlist(dcntry$name)
+  }else{
+    # return nothing if empty
+    return(NULL)
+  }
 }
 
 

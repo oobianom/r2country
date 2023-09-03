@@ -1,3 +1,4 @@
 ^_pkgdown\.yml$
 ^.*\.Rproj$
+^\inst\.temp$
 ^\.Rproj\.user$
