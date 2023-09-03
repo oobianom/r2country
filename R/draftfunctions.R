@@ -341,6 +341,7 @@ names(city_time1) <- city_time1
 
 #' @export
 timeOf <- lapply(city_time1, function(cnt){
+  message("!!! does not take daylight savings into account yet")
   us.time <- as.POSIXct(Sys.time(), tz = "America/New_York")
   as.POSIXct(as.numeric(unlist(city_time[city_time$City == cnt,]$Timediff)[1]) + us.time)
 })
