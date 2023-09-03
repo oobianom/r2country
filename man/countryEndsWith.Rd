@@ -2,7 +2,7 @@
 % Please edit documentation in R/draftfunctions.R
 \name{countryEndsWith}
 \alias{countryEndsWith}
-\title{Fetch countries that start with specified characters}
+\title{Fetch countries that ends with specified characters}
 \usage{
 countryEndsWith(char, full.list = TRUE)
 }

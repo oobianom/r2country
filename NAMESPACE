@@ -3,5 +3,8 @@
 export(COUNTRIES)
 export(countries)
 export(countryEndsWith)
+export(countryHas)
 export(countryStartsWith)
 export(getCTRY)
+export(languageHas)
+export(languageStartsWith)

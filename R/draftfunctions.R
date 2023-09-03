@@ -159,31 +159,75 @@ countryHas <- function(char, full.list = TRUE){
 #' @keywords NULL
 #'
 #' @examples
-#' # task 1: get only language names that ends with "ER" or "er"
+#' # task 1: get only language names that ends with "EN" or "en"
 #' # note that the search in case-insensitive
-#' languageStartsWith("er", full.list = F)
+#' languageStartsWith("eN", full.list = F)
 #'
-#' # task 2: get only language names that ends with "LAND" or "lAND" or "land"
-#' languageStartsWith("lAND", full.list = F)
+#' # task 2: get only language names that ends with "chi"
+#' languageStartsWith("chi", full.list = F)
 #'
 #' # task 3: repeat task 2, but return full list for each country with the language
-#' countryHas("many", full.list = T)
+#' languageStartsWith("sin", full.list = T)
+#'
+#' # searching text with no results
+#' languageStartsWith("er", full.list = F)
 #'
 #' @export
 languageStartsWith <- function(char, full.list = TRUE){
   # filter data
-  dcntry <- data.pck.cntry[endsWith(tolower(data.pck.cntry$officiallanguage),tolower(char)),]
+  dcntry <- data.pck.cntry[startsWith(tolower(data.pck.cntry$officiallanguage),tolower(char)),]
   dcntry <- dcntry[,c("name","officiallanguage")]
   if(nrow(dcntry)){
     # return results if > 0
-    if(full.list) split(dcntry, seq(nrow(dcntry))) else unlist(unique(dcntry$officiallanguage))
+    if(full.list) split(dcntry, seq(nrow(dcntry))) else rm.na(unique(unlist(dcntry$officiallanguage)))
   }else{
     # return nothing if empty
     return(NULL)
   }
 }
 
+rm.na <- function(var) var[!is.na(var)]
 
+#' Fetch countries data with official language ending in specified character
+#'
+#' Obtain country data matching language first one or more letters
+#'
+#' @param char character to search in languages
+#' @param full.list whether to return only name of country or full list
+#'
+#' @return language list or country data list matching parts of a character search on languages
+#'
+#' @seealso \code{\link{countryStartsWith}} for country search starting with specified characters, and [countryEndsWith()] for countries that end with a specified characters.
+#'
+#' @keywords NULL
+#'
+#' @examples
+#' # task 1: get only language names that ends with "EN" or "en"
+#' # note that the search in case-insensitive
+#' languageEndsWith("eN", full.list = F)
+#'
+#' # task 2: get only language names that ends with "chi"
+#' languageEndsWith("chi", full.list = F)
+#'
+#' # task 3: repeat task 2, but return full list for each country with the language
+#' languageEndsWith("sin", full.list = T)
+#'
+#' # searching text with no results
+#' languageEndsWith("er", full.list = F)
+#'
+#' @export
+languageEndsWith <- function(char, full.list = TRUE){
+  # filter data
+  dcntry <- data.pck.cntry[endsWith(tolower(data.pck.cntry$officiallanguage),tolower(char)),]
+  dcntry <- dcntry[,c("name","officiallanguage")]
+  if(nrow(dcntry)){
+    # return results if > 0
+    if(full.list) split(dcntry, seq(nrow(dcntry))) else rm.na(unique(unlist(dcntry$officiallanguage)))
+  }else{
+    # return nothing if empty
+    return(NULL)
+  }
+}
 
 #' Fetch countries data based on official language prefix
 #'
@@ -221,8 +265,6 @@ languageHas <- function(char, full.list = TRUE){
     return(NULL)
   }
 }
-
-        languageEndsWith <- function(char)
 
           languageOf <- lapply(countries1, function(cnt){})
 populationOf <- lapply(countries1, function(cnt){})

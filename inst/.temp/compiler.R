@@ -3,20 +3,20 @@ library(dplyr)
 library(magrittr)
 library(readxl)
 library(devtools)
-country_population <- read_excel("inst/population.xlsx")
+country_population <- read_excel("inst/.temp/population.xlsx")
 country_population<-country_population[,c(1,4)]
 names(country_population) = c("ID",names(country_population)[-1])
 country_population$ID=10000+c(1:nrow(country_population))
 
 
-country_calling_code <- read_excel("inst/callingcode.xlsx")
+country_calling_code <- read_excel("inst/.temp/callingcode.xlsx")
 country_calling_code<-country_calling_code[,c(1,3)]
 country_calling_code$callingcode = gsub("\\.0","", as.character(country_calling_code$callingcode))
 names(country_calling_code) = c("ID",names(country_calling_code)[-1])
 country_calling_code$ID=10000+c(1:nrow(country_calling_code))
 
 
-my_data <- read_excel("inst/money.xlsx")
+my_data <- read_excel("inst/.temp/money.xlsx")
 country_names <- my_data
 names(country_names) = c("ID",names(country_names)[-1])
 country_names$ID=10000+c(1:nrow(country_names))
@@ -27,7 +27,7 @@ country_names<-ppp[1:2]
 country_language <- ppp[c(1,13)]
 
 
-getcontinentcaptial <- readLines("inst/continentscapitals.txt")
+getcontinentcaptial <- readLines("inst/.temp/continentscapitals.txt")
 tocsvcc <- data.frame(getcontinentcaptial) %>% group_by_all() %>%
   separate(getcontinentcaptial,c("continent","cntry","capital"),sep = " - ") %>%
   mutate(upcountry = toupper(cntry))
@@ -49,7 +49,7 @@ joincontinent[joincontinent$upcountry == "PARAGUAY",]$capital = "Asunción"
 country_continent <- joincontinent[,c("ID","continent")]
 country_capital <- joincontinent[,c("ID","capital")]
 
-my_time <- read_excel("inst/time.xlsx")
+my_time <- read_excel("inst/.temp/time.xlsx")
 newyorktime <- `attr<-`(as.POSIXct(Sys.time()), "tzone", "America/New_York")
 
 timedata = as.Date(Sys.time())
