@@ -114,7 +114,7 @@
 #' @source {Internal data for currencies belonging to every country}
 #'
 #' @examples
-#' data(country_population)
+#' data(country_continent)
 #'
 
 "country_continent"
@@ -131,7 +131,7 @@
 #' @source {Internal data for currencies belonging to every country}
 #'
 #' @examples
-#' data(country_population)
+#' data(country_capital)
 #'
 
 "country_capital"
