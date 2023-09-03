@@ -5,13 +5,14 @@ Africa - Botswana - Gaborone
 Africa - Burkina Faso - Ouagadougou
 Africa - Burundi - Gitega
 Africa - Cameroon - Yaoundé
+Africa - Saint Helena - Jamestown
 Africa - Cape Verde - Praia
 Africa - Central African Republic - Bangui
 Africa - Chad - N'Djamena
 Africa - Comoros - Moroni
 Africa - Congo - Brazzaville
 Africa - DR Congo - Kinshasa
-Africa - Côte d'Ivoire - Yamoussoukro
+Africa - COTEDVOICE - Yamoussoukro
 Africa - Djibouti - Djibouti
 Africa - Equatorial Guinea - Malabo
 Africa - Egypt - Cairo
@@ -37,7 +38,7 @@ Africa - Namibia - Windhoek
 Africa - Niger - Niamey
 Africa - Nigeria - Abuja
 Africa - Rwanda - Kigali
-Africa - São Tomé and Príncipe - São Tomé
+Africa - Sao Tome & Principe - Sao Tome
 Africa - Senegal - Dakar
 Africa - Seychelles - Victoria
 Africa - Sierra Leone - Freetown
@@ -45,7 +46,7 @@ Africa - Somalia - Mogadishu
 Africa - South Africa - Pretoria
 Africa - South Sudan - Juba
 Africa - Sudan - Khartoum
-Africa - Swaziland - Mbabane
+Africa - Eswatini - Mbabane
 Africa - Tanzania - Dodoma
 Africa - Togo - Lome
 Africa - Tunisia - Tunis
@@ -57,7 +58,7 @@ Asia - Afghanistan - Kabul
 Asia - Armenia - Yerevan
 Asia - Azerbaijan - Baku
 Asia - Bahrain - Manama
-Asia - Bangladesh- Dhaka
+Asia - Bangladesh - Dhaka
 Asia - Bhutan - Thimphu
 Asia - Brunei - Bandar Seri Begawan
 Asia - Cambodia - Phnom Penh
@@ -77,16 +78,19 @@ Asia - Kyrgyzstan - Bishkek
 Asia - Laos - Vientiane
 Asia - Lebanon - Beirut
 Asia - Malaysia - Kuala Lumpur
-Asia - The Maldives - Malé
 Asia - Mongolia - Ulaanbaatar
 Asia - Myanmar - Naypyidaw
 Asia - Nepal - Kathmandu
 Asia - North Korea - Pyongyang
 Asia - Oman - Muscat
+Asia - Hong Kong - Victoria
+Asia - Maldives - Male
 Asia - Pakistan - Islamabad
+Europe - Isle of Man - Douglas
 Asia - Palestine - Ramallah
-Asia - The Philippines - Manila
+Asia - Philippines - Manila
 Asia - Qatar - Doha
+Asia - Macau - Macau
 Asia - Russia1 - Moscow
 Asia - Saudi Arabia - Riyadh
 Asia - Singapore - Singapore
@@ -102,7 +106,9 @@ Asia - United Arab Emirates - Abu Dhabi
 Asia - Uzbekistan - Tashkent
 Asia - Vietnam - Hanoi
 Asia - Yemen - Sana'a
+Europe - Faeroe Islands - Torshavn
 Europe - Albania - Tirana
+Europe - Gibraltar - Gibraltar
 Europe - Andorra - Andorra la Vella
 Europe - Austria - Vienna
 Europe - Belarus - Minsk
@@ -149,9 +155,15 @@ Europe - Switzerland - Bern
 Europe - Turkey - Ankara
 Europe - Ukraine - Kyiv
 Europe - United Kingdom - London
+North America - Saint Vincent and the Grenadines - Kingstown
+North America - Saint Kitts and Nevis - Basseterre
+North America - Saint Lucia - Castries
+North America - Grenada - Saint George's
+North America - Anguilla - The Valley
 North America - Canada - Ottawa
+North America - Antigua and Barbuda - Saint John's
 North America - Mexico - Mexico City
-North America - United States of America - Washington, D.C
+North America - United States - Washington, D.C
 North America - Navassa Island - Washington, D.C.
 North America - Puerto Rico - San Juan
 North America - US Virgin Islands - Charlotte Amalie
