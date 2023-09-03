@@ -315,11 +315,38 @@ languageOf <- lapply(countries1, function(cnt){
 })
 
 #' @export
-populationOf <- lapply(countries1, function(cnt){
-
+capitalOf <- lapply(countries1, function(cnt){
+  unlist(data.pck.cntry[data.pck.cntry$name==cnt,]$capital)
 })
-callingCodeOf <- lapply(countries1, function(cnt){})
-currencyOf <- lapply(countries1, function(cnt){})
-timeOf <- lapply(countries1, function(cnt){})
-continentOf <- lapply(countries1, function(cnt){})
+
+#' @export
+populationOf <- lapply(countries1, function(cnt){
+  unlist(data.pck.cntry[data.pck.cntry$name==cnt,]$population2023)
+})
+
+#' @export
+callingCodeOf <- lapply(countries1, function(cnt){
+  unlist(data.pck.cntry[data.pck.cntry$name==cnt,]$callingcode)
+})
+
+#' @export
+currencyOf <- lapply(countries1, function(cnt){
+  dcntry <- data.pck.cntry[data.pck.cntry$name==cnt,c("currency","symbol","isocode","fractionalunity")]
+  if(nrow(dcntry)) split(dcntry, seq(nrow(dcntry))) else NULL
+})
+
+
+city_time1 <- unlist(unique(city_time$City))
+names(city_time1) <- city_time1
+
+#' @export
+timeOf <- lapply(city_time1, function(cnt){
+  unlist(city_time[city_time$City == cnt,]$Timediff)
+})
+
+
+#' @export
+continentOf <- lapply(countries1, function(cnt){
+  unlist(data.pck.cntry[data.pck.cntry$name==cnt,]$continent)
+})
 
