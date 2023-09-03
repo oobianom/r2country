@@ -145,8 +145,83 @@ countryHas <- function(char, full.list = TRUE){
   }
 }
 
+#' Fetch countries data based on official language prefix
+#'
+#' Obtain country data matching language first one or more letters
+#'
+#' @param char character to search in languages
+#' @param full.list whether to return only name of country or full list
+#'
+#' @return language list or country data list matching parts of a character search on languages
+#'
+#' @seealso \code{\link{countryStartsWith}} for country search starting with specified characters, and [countryEndsWith()] for countries that end with a specified characters.
+#'
+#' @keywords NULL
+#'
+#' @examples
+#' # task 1: get only language names that ends with "ER" or "er"
+#' # note that the search in case-insensitive
+#' languageStartsWith("er", full.list = F)
+#'
+#' # task 2: get only language names that ends with "LAND" or "lAND" or "land"
+#' languageStartsWith("lAND", full.list = F)
+#'
+#' # task 3: repeat task 2, but return full list for each country with the language
+#' countryHas("many", full.list = T)
+#'
+#' @export
+languageStartsWith <- function(char, full.list = TRUE){
+  # filter data
+  dcntry <- data.pck.cntry[endsWith(tolower(data.pck.cntry$officiallanguage),tolower(char)),]
+  dcntry <- dcntry[,c("name","officiallanguage")]
+  if(nrow(dcntry)){
+    # return results if > 0
+    if(full.list) split(dcntry, seq(nrow(dcntry))) else unlist(unique(dcntry$officiallanguage))
+  }else{
+    # return nothing if empty
+    return(NULL)
+  }
+}
 
-      languageStartsWith <- function(char)
+
+
+#' Fetch countries data based on official language prefix
+#'
+#' Obtain country data matching language first one or more letters
+#'
+#' @param char character to search for
+#' @param full.list whether to return only name of country or full list
+#'
+#' @return country data list matching content from a specified character
+#'
+#' @seealso \code{\link{countryStartsWith}} for country search starting with specified characters, and [countryEndsWith()] for countries that end with a specified characters.
+#'
+#' @keywords NULL
+#'
+#' @examples
+#' # task 1: get only names of countries that contains with "ER" or "er"
+#' # note that the search in case-insensitive
+#' countryHas("er", full.list = F)
+#'
+#' # task 2: get only names of countries that contains with "LAND" or "lAND" or "land"
+#' countryHas("lAND", full.list = F)
+#'
+#' # task 3: repeat task 2, but return full list for each country
+#' countryHas("many", full.list = T)
+#'
+#' @export
+languageHas <- function(char, full.list = TRUE){
+  # filter data
+  dcntry <- data.pck.cntry[grep(tolower(char),tolower(data.pck.cntry$officiallanguage)),]
+  if(nrow(dcntry)){
+    # return results if > 0
+    if(full.list) split(dcntry, seq(nrow(dcntry))) else unlist(dcntry$name)
+  }else{
+    # return nothing if empty
+    return(NULL)
+  }
+}
+
         languageEndsWith <- function(char)
 
           languageOf <- lapply(countries1, function(cnt){})
