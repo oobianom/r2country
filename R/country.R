@@ -15,7 +15,7 @@
 #' data.frame(ID = 1, Names = countries)
 #'
 #' @export
-countries <- as.character(country_names$name)
+countries <- as.character(unique(data.pck.cntry$name))
 
 #' Names of all countries in upper case
 #'

@@ -30,9 +30,16 @@ getCTRY<-lapply(countries1,function(i){
 # })
 
 
-#Functions
-countryStartsWith <- function(char)
-  countryEndsWith <- function(char)
+#' @format NULL
+#' @docType NULL
+#' @keywords NULL
+#' @export
+countryStartsWith <- function(char, as.list = TRUE){
+
+}
+
+
+countryEndsWith <- function(char)
     countryHas <- function(char)
 
       languageStartsWith <- function(char)

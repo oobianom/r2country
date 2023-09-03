@@ -8,7 +8,7 @@ data(country_language) # country language
 # continent countries
 
 # merge country data
-data.pk.cntry <- cbind(
+data.pck.cntry <- cbind(
   country_names,
   country_money[-1],
   country_language[-1],
