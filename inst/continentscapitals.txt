@@ -64,7 +64,7 @@ Asia - Brunei - Bandar Seri Begawan
 Asia - Cambodia - Phnom Penh
 Asia - China - Beijing
 Asia - East Timor - Dili
-Asia - Georgia - Tbilisi
+Asia - Georgia1 - Tbilisi
 Asia - India - New Delhi
 Asia - Indonesia - Jakarta
 Asia - Iran - Tehran
@@ -100,7 +100,7 @@ Asia - Syria - Damascus
 Asia - Taiwan - Taipei
 Asia - Tajikistan - Dushanbe
 Asia - Thailand - Bangkok
-Asia - Turkey - Ankara
+Asia - Turkey1 - Ankara
 Asia - Turkmenistan - Aşgabat
 Asia - United Arab Emirates - Abu Dhabi
 Asia - Uzbekistan - Tashkent
