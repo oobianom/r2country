@@ -266,7 +266,12 @@ languageHas <- function(char, full.list = TRUE){
   }
 }
 
-          languageOf <- lapply(countries1, function(cnt){})
+#' @export
+languageOf <- lapply(countries1, function(cnt){
+  unlist(data.pck.cntry[data.pck.cntry$name==cnt,]$officiallanguage)
+})
+
+
 populationOf <- lapply(countries1, function(cnt){})
 callingCodeOf <- lapply(countries1, function(cnt){})
 currencyOf <- lapply(countries1, function(cnt){})
