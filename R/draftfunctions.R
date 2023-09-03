@@ -68,7 +68,45 @@ countryStartsWith <- function(char, full.list = TRUE){
 }
 
 
-countryEndsWith <- function(char)
+
+#' Fetch countries that start with specified characters
+#'
+#' Subset and return countries given a specified characters to search
+#'
+#' @param char character to search for
+#' @param full.list whether to return only name of country or full list
+#'
+#' @return country data list matching a specified character
+#'
+#' @seealso [countryStartsWith()] for country search starting with specified characters, and [countryHas()] for countries that contain specified characters.
+#'
+#' @keywords NULL
+#'
+#' @examples
+#' # task 1: get only names of countries that end with "A" or "a"
+#' # note that the search in case-insensitive
+#' countryEndsWith("A", full.list = F)
+#'
+#' # task 2: get only names of countries that end with "No" or "no"
+#' countryEndsWith("no", full.list = F)
+#'
+#' # task 3: repeat task 2, but return full list for each country
+#' countryEndsWith("no")
+#'
+#' @export
+countryEndsWith <- function(char, full.list = TRUE){
+  # filter data
+  dcntry <- data.pck.cntry[endsWith(tolower(data.pck.cntry$name),tolower(char)),]
+  if(nrow(dcntry)){
+    # return results if > 0
+    if(full.list) split(dcntry, seq(nrow(dcntry))) else unlist(dcntry$name)
+  }else{
+    # return nothing if empty
+    return(NULL)
+  }
+}
+
+
     countryHas <- function(char)
 
       languageStartsWith <- function(char)
