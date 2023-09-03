@@ -266,13 +266,58 @@ languageHas <- function(char, full.list = TRUE){
   }
 }
 
+
+#' Fetch countries by continent
+#'
+#' Obtain country data matching language first one or more letters
+#'
+#' @param name name of continent
+#' @param full.list whether to return only name of country or full list
+#'
+#' @return country data list matching continent
+#'
+#' @details
+#' Note that choices for names of continent includes 'asia','europe','africa','north america','south america','oceania'
+#'
+#'
+#' @keywords NULL
+#'
+#' @examples
+#' # task 1: get only names of countries that contains with "ER" or "er"
+#' # note that the search in case-insensitive
+#' byContinent("africa", full.list = F)
+#'
+#' # task 2: get only names of countries that contains with "LAND" or "lAND" or "land"
+#' byContinent("asia", full.list = F)
+#'
+#' # task 3: repeat task 2, but return full list for each country
+#' byContinent("europe", full.list = T)
+#'
+#' @export
+byContinent <-function(name = c('asia','europe','africa','north america','south america','oceania'), full.list = TRUE){
+  # match name of continent
+  cnt.name <- match.arg(name)
+
+  # filter data
+  dcntry <- data.pck.cntry[grep(tolower(cnt.name),tolower(data.pck.cntry$continent)),c("name","continent")]
+  if(nrow(dcntry)){
+    # return results if > 0
+    if(full.list) split(dcntry, seq(nrow(dcntry))) else unlist(dcntry$name)
+  }else{
+    # return nothing if empty
+    return(NULL)
+  }
+}
+
 #' @export
 languageOf <- lapply(countries1, function(cnt){
   unlist(data.pck.cntry[data.pck.cntry$name==cnt,]$officiallanguage)
 })
 
+#' @export
+populationOf <- lapply(countries1, function(cnt){
 
-populationOf <- lapply(countries1, function(cnt){})
+})
 callingCodeOf <- lapply(countries1, function(cnt){})
 currencyOf <- lapply(countries1, function(cnt){})
 timeOf <- lapply(countries1, function(cnt){})
