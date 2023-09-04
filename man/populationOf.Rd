@@ -3,7 +3,7 @@
 \docType{data}
 \name{populationOf}
 \alias{populationOf}
-\title{Fetch the latest population of a country}
+\title{Fetch the latest population count of a country}
 \format{
 An object of class \code{list} of length 193.
 }

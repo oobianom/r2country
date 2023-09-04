@@ -14,9 +14,8 @@
 #'    }
 #' @source {Internal data for currencies belonging to every country}
 #' @return data for currencies by country
-#' @references \url{wikipedia.com}
+#' @references \url{https://www.wikipedia.org}
 #' @seealso \code{\link{country_names}} for linkage of IDs with country names
-#' @keywords country currencies, currency by country
 #' @examples
 #' data(country_money)
 #'
@@ -40,7 +39,7 @@
 #'    }
 #' @source {Internal data consisting of all country names}
 #' @return data for names of country
-#' @references \url{wikipedia.com}
+#' @references \url{https://www.wikipedia.org}
 #' @keywords country names
 #' @examples
 #' # load the country names
@@ -67,8 +66,7 @@
 #'    }
 #' @source {Internal data consisting of all country IDs and their official languages}
 #' @return country ID and official languages
-#' @references \url{wikipedia.com}
-#' @keywords country languages, language of countries
+#' @references \url{https://www.wikipedia.org}
 #' @seealso Data \code{\link{country_names}} for linkage of IDs with country names
 #' @examples
 #' # load the country ID and languages
@@ -94,8 +92,7 @@
 #'    }
 #' @source {Internal data consisting of cities and their corresponding time}
 #' @return cities and the current time relative to New York
-#' @references \url{timeanddate.com}
-#' @keywords city time, current time in place, current time country
+#' @references \url{https://www.timeanddate.com}
 #' @examples
 #' # load the cities and languages dataset
 #' data(city_time)
@@ -120,8 +117,7 @@
 #'    }
 #' @source {Internal data consisting of countries and their calling code}
 #' @return calling code of countries
-#' @references \url{timeanddate.com}
-#' @keywords country, country calling code, calling code
+#' @references \url{https://countrycode.org}
 #' @seealso Data \code{\link{country_names}} for linkage of IDs with country calling code
 #' @examples
 #' # load the calling code dataset
@@ -148,8 +144,7 @@
 #'    }
 #' @source {Internal data consisting of countries and their population}
 #' @return corresponding population size of countries
-#' @references \url{wikipedia.com}
-#' @keywords country population, population of, population glocally
+#' @references \url{https://www.wikipedia.org}
 #' @seealso Data \code{\link{country_names}} for linkage of IDs with country population size
 #' @examples
 #' # load the population dataset
@@ -179,8 +174,7 @@
 #'    }
 #' @source {Internal data consisting of countries and their continent}
 #' @return corresponding continents of countries
-#' @references \url{wikipedia.com}
-#' @keywords country continent, continents
+#' @references \url{https://www.wikipedia.org}
 #' @seealso Data \code{\link{country_names}} for linkage of IDs with continent
 #' @examples
 #' # load the population dataset
@@ -209,8 +203,7 @@
 #'    }
 #' @source {Internal data consisting of countries and their capital}
 #' @return corresponding capitals of countries
-#' @references \url{wikipedia.com}
-#' @keywords country capital, capitals
+#' @references \url{https://www.wikipedia.org}
 #' @seealso Data \code{\link{country_names}} for linkage of IDs with capital
 #' @examples
 #' # load the population dataset

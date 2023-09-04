@@ -1,6 +1,6 @@
 Package: r2country
 Type: Package
-Title: All Country Data for Name, Capitals, GovernmentS, Currencies, Populations, Time, Languages and so on
+Title: Country Data with Names, Capitals, Governments, Currencies, Populations, Time, Languages and so on
 Version: 1.0
 Authors@R: c(
     person("Obinna", "Obianom", email = "idonshayo@gmail.com", role = c("aut", "cre")))
