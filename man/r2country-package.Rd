@@ -4,7 +4,7 @@
 \name{r2country-package}
 \alias{r2country}
 \alias{r2country-package}
-\title{r2country: All Country Data for Name, Capitals, Government, Currency, Population, Time, Languages and so on.}
+\title{r2country: All Country Data for Name, Capitals, GovernmentS, Currencies, Populations, Time, Languages and so on}
 \description{
 Easily Obtain information about countries around the globe. Information for name, states, presidents, currency and many more.
 }
