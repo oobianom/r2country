@@ -24,7 +24,7 @@ corresponding continents of countries
 Dataset containing country IDs and their continents
 }
 \examples{
-# load the population dataset
+# load the continent dataset
 data(country_continent)
 data(country_names)
 finaldb <- cbind(country_names,country_continent)

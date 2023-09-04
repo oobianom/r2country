@@ -177,7 +177,7 @@
 #' @references \url{https://www.wikipedia.org}
 #' @seealso Data \code{\link{country_names}} for linkage of IDs with continent
 #' @examples
-#' # load the population dataset
+#' # load the continent dataset
 #' data(country_continent)
 #' data(country_names)
 #' finaldb <- cbind(country_names,country_continent)
@@ -206,7 +206,7 @@
 #' @references \url{https://www.wikipedia.org}
 #' @seealso Data \code{\link{country_names}} for linkage of IDs with capital
 #' @examples
-#' # load the population dataset
+#' # load the capitals dataset
 #' data(country_capital)
 #' data(country_names)
 #' finaldb <- cbind(country_names,country_capital)

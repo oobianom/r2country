@@ -24,7 +24,7 @@ corresponding capitals of countries
 Dataset containing country IDs and their capitals
 }
 \examples{
-# load the population dataset
+# load the capitals dataset
 data(country_capital)
 data(country_names)
 finaldb <- cbind(country_names,country_capital)
