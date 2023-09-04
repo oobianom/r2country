@@ -21,7 +21,8 @@ Get the current time using specified city name
 names(timeIn)[1:10]
 
 #task 0: check if the time in Delhi is present
-grep("Delhi",names(timeIn), value = TRUE)
+#should be all in lower case
+grep("delhi",names(timeIn), value = TRUE)
 
 #task 1: check the time in delhi
 timeIn$delhi
@@ -33,7 +34,7 @@ timeIn$boston
 timeIn[c("ankara","dubai","ontario")]
 
 #task 4: what if the city is not available
-timeIn[c("randomcity","dili","jerusalem")]
+timeIn[c("randomcity","york","jerusalem")]
 
 }
 \keyword{datasets}
