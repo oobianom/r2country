@@ -193,16 +193,49 @@ names(city_time1) <- tolower(city_time1)
 #'
 #' @export
 timeIn <- lapply(city_time1, function(cnt){
-  #message("!!! does not take daylight savings into account yet")
-
-  # Year	Daylight Saving Time Begins	Daylight Saving Time Ends
-  # 2023	Sunday, March 12 at 2:00 A.M.	Sunday, November 5 at 2:00 A.M.
-  # 2024	Sunday, March 10 at 2:00 A.M.	Sunday, November 3 at 2:00 A.M.
-  # 2025	Sunday, March 9 at 2:00 A.M.	Sunday, November 2 at 2:00 A.M.
-  # 2026	Sunday, March 8 at 2:00 A.M.	Sunday, November 1 at 2:00 A.M.
-
+  #current year and time
+  currentYear <-format(Sys.time(),"%Y")
   us.time <- as.POSIXct(Sys.time(), tz = "America/New_York")
-  as.POSIXct(as.numeric(unlist(city_time[city_time$City == cnt,]$Timediff)[1]) + us.time)
+  dst.adj <- us.time
+
+  #defaults
+  stt <-as.POSIXct("2023-03-15 03:00:00")
+  ent <- as.POSIXct("2023-11-10 03:00:00")
+
+  switch (currentYear,
+    "2023" = {
+      stt <-as.POSIXct("2023-03-12 03:00:00")
+      ent <- as.POSIXct("2023-11-05 03:00:00")
+    },
+    "2024" = {
+      stt <-as.POSIXct("2023-03-10 03:00:00")
+      ent <- as.POSIXct("2023-11-03 03:00:00")
+    },
+    "2025" = {
+      stt <-as.POSIXct("2023-03-09 03:00:00")
+      ent <- as.POSIXct("2023-11-02 03:00:00")
+    },
+    "2026" = {
+      stt <-as.POSIXct("2023-03-08 03:00:00")
+      ent <- as.POSIXct("2023-11-01 03:00:00")
+    }
+  )
+
+  t1 <- as.numeric(us.time - stt)
+  t2 <- as.numeric(us.time - ent)
+  if(t1 > 0){
+    #after march
+    if(t2 > 0){
+      #after nov, adjust for day light savings
+      dst.adj <- dst.adj - 60*60
+    }
+  }else{
+    #before march, adjust for day light savings
+    dst.adj <- dst.adj - 60*60
+  }
+
+  difftime1 <- as.numeric(unlist(city_time[city_time$City == cnt,]$Timediff)[1])
+  list(as.is =  as.POSIXct(difftime1  + us.time), dst.adj = as.POSIXct(difftime1  + us.time))
 })
 
 #' Fetch the continent of a country
