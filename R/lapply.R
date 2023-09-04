@@ -62,7 +62,7 @@ capitalOf <- lapply(countries1, function(cnt){
 })
 
 
-#' Fetch the latest population of a country
+#' Fetch the latest population count of a country
 #'
 #' With specified country name or names, get the associated population
 #'
