@@ -13,6 +13,32 @@ populationOf <- lapply(countries1, function(cnt){
   unlist(data.pck.cntry[data.pck.cntry$name==cnt,]$population2023)
 })
 
+#' Fetch the calling code of a country
+#'
+#' With specified country name or names, get the associated calling code
+#'
+#' @return a list containing all countries and their corresponding calling code
+#' @examples
+#' # view the searchable countries, return first 6
+#' head(names(callingCodeOf))
+#'
+#' #task 0: check if the calling code of japan is included
+#' #should be all in lower case
+#' grep("japan",names(callingCodeOf), value = TRUE)
+#'
+#' #task 1: check the calling code of nigeria
+#' callingCodeOf$nigeria
+#'
+#' #task 2: check the calling code of united states
+#' callingCodeOf$`united states`
+#'
+#'
+#' #task 3: check calling code of multiple countries
+#' callingCodeOf[c("slovenia","romania","malaysia")]
+#'
+#' #task 4: what if the calling code is not available
+#' callingCodeOf[c("randomcountry","mexico","luxembourg")]
+#'
 #' @export
 callingCodeOf <- lapply(countries1, function(cnt){
   paste0("+",unlist(data.pck.cntry[data.pck.cntry$name==cnt,]$callingcode))
