@@ -1,6 +1,6 @@
 # r2country: An R package for everything country. 
 
-### Official website: https://r2country.obi.obianom.com
+### Official website: https://r2country.obi.obianom.com <img src="https://r2country.obi.obianom.com/hex-r2country.png" align="right" width="50">
 
 #### Quick calls to obtain various country info for use in writing R markdown and developing robust applications
 
