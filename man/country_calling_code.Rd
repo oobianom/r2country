@@ -33,13 +33,9 @@ head(country_calling_code)
 
 }
 \references{
-\url{timeanddate.com}
+\url{https://countrycode.org}
 }
 \seealso{
 Data \code{\link{country_names}} for linkage of IDs with country calling code
 }
-\keyword{calling}
-\keyword{code}
-\keyword{code,}
-\keyword{country}
-\keyword{country,}
+\keyword{datasets}

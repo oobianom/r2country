@@ -32,12 +32,6 @@ head(city_time)
 
 }
 \references{
-\url{timeanddate.com}
+\url{https://www.timeanddate.com}
 }
-\keyword{city}
-\keyword{country}
-\keyword{current}
-\keyword{in}
-\keyword{place,}
-\keyword{time}
-\keyword{time,}
+\keyword{datasets}

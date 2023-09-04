@@ -34,12 +34,9 @@ head(country_money)
 
 }
 \references{
-\url{wikipedia.com}
+\url{https://www.wikipedia.org}
 }
 \seealso{
 \code{\link{country_names}} for linkage of IDs with country names
 }
-\keyword{by}
-\keyword{country}
-\keyword{currencies,}
-\keyword{currency}
+\keyword{datasets}

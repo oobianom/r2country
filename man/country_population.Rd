@@ -35,13 +35,9 @@ head(finaldb)
 
 }
 \references{
-\url{wikipedia.com}
+\url{https://www.wikipedia.org}
 }
 \seealso{
 Data \code{\link{country_names}} for linkage of IDs with country population size
 }
-\keyword{country}
-\keyword{glocally}
-\keyword{of,}
-\keyword{population}
-\keyword{population,}
+\keyword{datasets}

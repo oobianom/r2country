@@ -32,13 +32,9 @@ head(country_language)
 
 }
 \references{
-\url{wikipedia.com}
+\url{https://www.wikipedia.org}
 }
 \seealso{
 Data \code{\link{country_names}} for linkage of IDs with country names
 }
-\keyword{countries}
-\keyword{country}
-\keyword{language}
-\keyword{languages,}
-\keyword{of}
+\keyword{datasets}

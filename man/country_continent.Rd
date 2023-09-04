@@ -35,11 +35,9 @@ head(finaldb)
 
 }
 \references{
-\url{wikipedia.com}
+\url{https://www.wikipedia.org}
 }
 \seealso{
 Data \code{\link{country_names}} for linkage of IDs with continent
 }
-\keyword{continent,}
-\keyword{continents}
-\keyword{country}
+\keyword{datasets}

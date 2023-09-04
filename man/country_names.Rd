@@ -32,7 +32,7 @@ head(country_names)
 
 }
 \references{
-\url{wikipedia.com}
+\url{https://www.wikipedia.org}
 }
 \keyword{country}
 \keyword{names}
