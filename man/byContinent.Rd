@@ -24,14 +24,14 @@ Obtain country data matching language first one or more letters
 Note that choices for names of continent includes 'asia','europe','africa','north america','south america','oceania'
 }
 \examples{
-# task 1: get only names of countries that contains with "ER" or "er"
+# task 1: get only names of countries that contains with "africa" or "AFrica"
 # note that the search in case-insensitive
-byContinent("africa", full.list = F)
+byContinent("africa", full.list = FALSE)
 
-# task 2: get only names of countries that contains with "LAND" or "lAND" or "land"
-byContinent("asia", full.list = F)
+# task 2: get only names of countries that contains with "ASIA" or "asia"
+byContinent("asia", full.list = FALSE)
 
 # task 3: repeat task 2, but return full list for each country
-byContinent("europe", full.list = T)
+byContinent("europe", full.list = TRUE)
 
 }

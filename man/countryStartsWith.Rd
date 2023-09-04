@@ -20,10 +20,10 @@ Subset and return countries given a specified characters to search
 \examples{
 # task 1: get only names of countries that start with "A" or "a"
 # note that the search in case-insensitive
-countryStartsWith("A", full.list = F)
+countryStartsWith("A", full.list = FALSE)
 
 # task 2: get only names of countries that start with "No" or "no"
-countryStartsWith("no", full.list = F)
+countryStartsWith("no", full.list = FALSE)
 
 # task 3: repeat task 2, but return full list for each country
 countryStartsWith("no")

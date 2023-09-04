@@ -1,10 +1,10 @@
 ---
-title: "NOT functions, vector_shuffle, data_pop,  and init function amongst many great new functions in the quickcode R package"
+title: "r2country R Package: Dataset of countries. Search Countries and Attributes Related to it."
 author: "Obinna (OBI) Obianom"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{NOT functions, vector_shuffle, data_pop,  and init function amongst many great new functions in the quickcode R package}
+  %\VignetteIndexEntry{Dataset of countries. Search Countries and Attributes Related to it.}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

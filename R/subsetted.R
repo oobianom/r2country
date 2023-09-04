@@ -14,10 +14,10 @@
 #' @examples
 #' # task 1: get only names of countries that start with "A" or "a"
 #' # note that the search in case-insensitive
-#' countryStartsWith("A", full.list = F)
+#' countryStartsWith("A", full.list = FALSE)
 #'
 #' # task 2: get only names of countries that start with "No" or "no"
-#' countryStartsWith("no", full.list = F)
+#' countryStartsWith("no", full.list = FALSE)
 #'
 #' # task 3: repeat task 2, but return full list for each country
 #' countryStartsWith("no")
@@ -53,10 +53,10 @@ countryStartsWith <- function(char, full.list = TRUE){
 #' @examples
 #' # task 1: get only names of countries that end with "A" or "a"
 #' # note that the search in case-insensitive
-#' countryEndsWith("A", full.list = F)
+#' countryEndsWith("A", full.list = FALSE)
 #'
 #' # task 2: get only names of countries that end with "No" or "no"
-#' countryEndsWith("no", full.list = F)
+#' countryEndsWith("no", full.list = FALSE)
 #'
 #' # task 3: repeat task 2, but return full list for each country
 #' countryEndsWith("no")
@@ -92,13 +92,13 @@ countryEndsWith <- function(char, full.list = TRUE){
 #' @examples
 #' # task 1: get only names of countries that contains with "ER" or "er"
 #' # note that the search in case-insensitive
-#' countryHas("er", full.list = F)
+#' countryHas("er", full.list = FALSE)
 #'
 #' # task 2: get only names of countries that contains with "LAND" or "lAND" or "land"
-#' countryHas("lAND", full.list = F)
+#' countryHas("lAND", full.list = FALSE)
 #'
 #' # task 3: repeat task 2, but return full list for each country
-#' countryHas("many", full.list = T)
+#' countryHas("many", full.list = TRUE)
 #'
 #' @export
 countryHas <- function(char, full.list = TRUE){
@@ -129,16 +129,16 @@ countryHas <- function(char, full.list = TRUE){
 #' @examples
 #' # task 1: get only language names that ends with "EN" or "en"
 #' # note that the search in case-insensitive
-#' languageStartsWith("eN", full.list = F)
+#' languageStartsWith("eN", full.list = FALSE)
 #'
 #' # task 2: get only language names that ends with "chi"
-#' languageStartsWith("chi", full.list = F)
+#' languageStartsWith("chi", full.list = FALSE)
 #'
 #' # task 3: repeat task 2, but return full list for each country with the language
-#' languageStartsWith("sin", full.list = T)
+#' languageStartsWith("sin", full.list = TRUE)
 #'
 #' # searching text with no results
-#' languageStartsWith("er", full.list = F)
+#' languageStartsWith("er", full.list = FALSE)
 #'
 #' @export
 languageStartsWith <- function(char, full.list = TRUE){
@@ -172,16 +172,16 @@ rm.na <- function(var) var[!is.na(var)]
 #' @examples
 #' # task 1: get only language names that ends with "EN" or "en"
 #' # note that the search in case-insensitive
-#' languageEndsWith("eN", full.list = F)
+#' languageEndsWith("eN", full.list = FALSE)
 #'
 #' # task 2: get only language names that ends with "chi"
-#' languageEndsWith("chi", full.list = F)
+#' languageEndsWith("chi", full.list = FALSE)
 #'
 #' # task 3: repeat task 2, but return full list for each country with the language
-#' languageEndsWith("sin", full.list = T)
+#' languageEndsWith("sin", full.list = TRUE)
 #'
 #' # searching text with no results
-#' languageEndsWith("er", full.list = F)
+#' languageEndsWith("er", full.list = FALSE)
 #'
 #' @export
 languageEndsWith <- function(char, full.list = TRUE){
@@ -213,13 +213,13 @@ languageEndsWith <- function(char, full.list = TRUE){
 #' @examples
 #' # task 1: get only names of countries that contains with "ER" or "er"
 #' # note that the search in case-insensitive
-#' countryHas("er", full.list = F)
+#' countryHas("er", full.list = FALSE)
 #'
 #' # task 2: get only names of countries that contains with "LAND" or "lAND" or "land"
-#' countryHas("lAND", full.list = F)
+#' countryHas("lAND", full.list = FALSE)
 #'
 #' # task 3: repeat task 2, but return full list for each country
-#' countryHas("many", full.list = T)
+#' countryHas("many", full.list = TRUE)
 #'
 #' @export
 languageHas <- function(char, full.list = TRUE){
@@ -251,15 +251,15 @@ languageHas <- function(char, full.list = TRUE){
 #' @keywords NULL
 #'
 #' @examples
-#' # task 1: get only names of countries that contains with "ER" or "er"
+#' # task 1: get only names of countries that contains with "africa" or "AFrica"
 #' # note that the search in case-insensitive
-#' byContinent("africa", full.list = F)
+#' byContinent("africa", full.list = FALSE)
 #'
-#' # task 2: get only names of countries that contains with "LAND" or "lAND" or "land"
-#' byContinent("asia", full.list = F)
+#' # task 2: get only names of countries that contains with "ASIA" or "asia"
+#' byContinent("asia", full.list = FALSE)
 #'
 #' # task 3: repeat task 2, but return full list for each country
-#' byContinent("europe", full.list = T)
+#' byContinent("europe", full.list = TRUE)
 #'
 #' @export
 byContinent <-function(name = c('asia','europe','africa','north america','south america','oceania'), full.list = TRUE){

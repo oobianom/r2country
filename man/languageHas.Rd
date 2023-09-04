@@ -20,13 +20,13 @@ Obtain country data matching language first one or more letters
 \examples{
 # task 1: get only names of countries that contains with "ER" or "er"
 # note that the search in case-insensitive
-countryHas("er", full.list = F)
+countryHas("er", full.list = FALSE)
 
 # task 2: get only names of countries that contains with "LAND" or "lAND" or "land"
-countryHas("lAND", full.list = F)
+countryHas("lAND", full.list = FALSE)
 
 # task 3: repeat task 2, but return full list for each country
-countryHas("many", full.list = T)
+countryHas("many", full.list = TRUE)
 
 }
 \seealso{

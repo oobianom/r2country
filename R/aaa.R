@@ -8,14 +8,24 @@
 }
 
 #Fetch relevant country data pack
-data(country_calling_code) # calling code for countries
-data(country_population) # population by year for countries
-data(city_time) # time by city
-data(country_names) # country names
-data(country_money) # countries currency
-data(country_language) # country language
-data(country_capital) #country capitals
-data(country_continent)# continent countries
+do.call("data",list(
+  "country_calling_code",
+  "country_population",
+  "city_time",
+  "country_names",
+  "country_money",
+  "country_language",
+  "country_capital",
+  "country_continent"
+))
+# data() # calling code for countries
+# data() # population by year for countries
+# data() # time by city
+# data() # country names
+# data() # countries currency
+# data() # country language
+# data() #country capitals
+# data()# continent countries
 
 # merge country data
 data.pck.cntry <- cbind(

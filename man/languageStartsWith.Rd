@@ -20,16 +20,16 @@ Obtain country data matching language first one or more letters
 \examples{
 # task 1: get only language names that ends with "EN" or "en"
 # note that the search in case-insensitive
-languageStartsWith("eN", full.list = F)
+languageStartsWith("eN", full.list = FALSE)
 
 # task 2: get only language names that ends with "chi"
-languageStartsWith("chi", full.list = F)
+languageStartsWith("chi", full.list = FALSE)
 
 # task 3: repeat task 2, but return full list for each country with the language
-languageStartsWith("sin", full.list = T)
+languageStartsWith("sin", full.list = TRUE)
 
 # searching text with no results
-languageStartsWith("er", full.list = F)
+languageStartsWith("er", full.list = FALSE)
 
 }
 \seealso{
