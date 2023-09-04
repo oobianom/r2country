@@ -69,7 +69,7 @@
 #' @return country ID and official languages
 #' @references \url{wikipedia.com}
 #' @keywords country languages, language of countries
-#' @seealso \code{\link{country_names}} for linkage of IDs with country names
+#' @seealso Data \code{\link{country_names}} for linkage of IDs with country names
 #' @examples
 #' # load the country ID and languages
 #' data(country_language)
@@ -107,18 +107,29 @@
 "city_time"
 
 
-#' Data for Country Money
+#' Dataset of countries and their calling code
 #'
-#' Data for all country currency names and symbols
+#' Dataset containing country IDs and their calling code
 #'
-#' @format A data frame with all countries and columns for currency
+#' @docType data
+#' @usage data(country_calling_code)
+#' @format A data frame with the calling code of countries
 #' \describe{
-#'    \item{x}{country name}
+#'    \item{ID}{country identifiers}
+#'    \item{callingcode}{Calling code of countries}
 #'    }
-#' @source {Internal data for currencies belonging to every country}
-#'
+#' @source {Internal data consisting of countries and their calling code}
+#' @return calling code of countries
+#' @references \url{timeanddate.com}
+#' @keywords country, country calling code, calling code
+#' @seealso Data \code{\link{country_names}} for linkage of IDs with country calling code
 #' @examples
+#' # load the calling code dataset
 #' data(country_calling_code)
+#'
+#' # view content of the city-calling code data
+#' head(country_calling_code)
+#'
 #'
 
 "country_calling_code"
