@@ -26,8 +26,33 @@ currencyOf <- lapply(countries1, function(cnt){
 
 
 city_time1 <- unlist(unique(city_time$City))
-names(city_time1) <- city_time1
+names(city_time1) <- toLower(city_time1)
 
+
+#' Fetch the current time in a specific city
+#'
+#' Get the current time using specified city name
+#'
+#' @return a list containing all cities and corresponding local time
+#' @examples
+#' # view the searchable cities, return first 10
+#' names(timeOf)[1:10]
+#'
+#' #task 0: check if the time in Delhi is present
+#' grep("Delhi",names(timeOf), value = TRUE)
+#'
+#' #task 1: check the time in delhi
+#' timeOf$delhi
+#'
+#' #task 2: check the time in Boston
+#' timeOf$boston
+#'
+#' #task 3: view the time in multiple countries
+#' timeOf[c("ankara","dubai","ontario")]
+#'
+#' #task 4: what if the city is not available
+#' timeOf[c("randomcity","dili","jerusalem")]
+#'
 #' @export
 timeOf <- lapply(city_time1, function(cnt){
   #message("!!! does not take daylight savings into account yet")
@@ -44,7 +69,7 @@ timeOf <- lapply(city_time1, function(cnt){
 #' # view the searchable countries
 #' names(continentOf)
 #'
-#' # task 1: view the continent of algeria
+#' #task 1: view the continent of algeria
 #' continentOf$algeria
 #'
 #' #task 2: view the continent of nigeria
@@ -53,7 +78,7 @@ timeOf <- lapply(city_time1, function(cnt){
 #' #task 3: view the continent of multiple countries
 #' continentOf[c("niger","china","colombia")]
 #'
-#' #task 3: if the continent is not available
+#' #task 4: if the continent is not available
 #' continentOf[c("niger","china","randomtest")]
 #'
 #' @export
