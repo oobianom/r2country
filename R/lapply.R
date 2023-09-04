@@ -26,7 +26,7 @@ currencyOf <- lapply(countries1, function(cnt){
 
 
 city_time1 <- unlist(unique(city_time$City))
-names(city_time1) <- toLower(city_time1)
+names(city_time1) <- tolower(city_time1)
 
 
 #' Fetch the current time in a specific city
