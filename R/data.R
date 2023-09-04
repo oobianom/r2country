@@ -87,7 +87,7 @@
 #'
 #' @docType data
 #' @usage data(city_time)
-#' @format A data frame with the languages of countries
+#' @format A data frame with the current time in various cities
 #' \describe{
 #'    \item{City}{Names of cities}
 #'    \item{Timediff}{Time difference relative to New York time}
@@ -135,53 +135,92 @@
 "country_calling_code"
 
 
-#' Data for Country Money
+#' Dataset of countries and their latest population
 #'
-#' Data for all country currency names and symbols
+#' Dataset containing country IDs and their population by year
 #'
-#' @format A data frame with all countries and columns for currency
+#' @docType data
+#' @usage data(country_population)
+#' @format A data frame with the population of countries
 #' \describe{
-#'    \item{x}{country name}
+#'    \item{ID}{country identifiers}
+#'    \item{population2023}{country population as of 2023}
 #'    }
-#' @source {Internal data for currencies belonging to every country}
-#'
+#' @source {Internal data consisting of countries and their population}
+#' @return corresponding population size of countries
+#' @references \url{wikipedia.com}
+#' @keywords country population, population of, population glocally
+#' @seealso Data \code{\link{country_names}} for linkage of IDs with country population size
 #' @examples
+#' # load the population dataset
 #' data(country_population)
+#' data(country_names)
+#' finaldb <- rbind(country_names,country_population)
+#'
+#' # view content of the country and population
+#' head(finaldb)
+#'
 #'
 
 "country_population"
 
 
 
-#' Data for Country Money
+#' Dataset of countries and their continents
 #'
-#' Data for all country currency names and symbols
+#' Dataset containing country IDs and their continents
 #'
-#' @format A data frame with all countries and columns for currency
+#' @docType data
+#' @usage data(country_continent)
+#' @format A data frame with the continents that countries belong to
 #' \describe{
-#'    \item{x}{country name}
+#'    \item{ID}{country identifiers}
+#'    \item{continent}{continents of various country}
 #'    }
-#' @source {Internal data for currencies belonging to every country}
-#'
+#' @source {Internal data consisting of countries and their continent}
+#' @return corresponding continents of countries
+#' @references \url{wikipedia.com}
+#' @keywords country continent, continents
+#' @seealso Data \code{\link{country_names}} for linkage of IDs with continent
 #' @examples
+#' # load the population dataset
 #' data(country_continent)
+#' data(country_names)
+#' finaldb <- rbind(country_names,country_continent)
+#'
+#' # view content of the country and population
+#' head(finaldb)
+#'
 #'
 
 "country_continent"
 
 
-#' Data for Country Money
+#' Dataset of countries and their capitals
 #'
-#' Data for all country currency names and symbols
+#' Dataset containing country IDs and their capitals
 #'
-#' @format A data frame with all countries and columns for currency
+#' @docType data
+#' @usage data(country_capital)
+#' @format A data frame with the capitals that countries belong to
 #' \describe{
-#'    \item{x}{country name}
+#'    \item{ID}{country identifiers}
+#'    \item{capital}{capitals of various country}
 #'    }
-#' @source {Internal data for currencies belonging to every country}
-#'
+#' @source {Internal data consisting of countries and their capital}
+#' @return corresponding capitals of countries
+#' @references \url{wikipedia.com}
+#' @keywords country capital, capitals
+#' @seealso Data \code{\link{country_names}} for linkage of IDs with capital
 #' @examples
+#' # load the population dataset
 #' data(country_capital)
+#' data(country_names)
+#' finaldb <- rbind(country_names,country_capital)
+#'
+#' # view content of the country and population
+#' head(finaldb)
+#'
 #'
 
 "country_capital"
