@@ -3,7 +3,7 @@
 #' Fetch the names of all countries
 #'
 #' @return Names of all countries in the globe
-#'
+#' @rdname country0
 #' @examples
 #' # list all the countries
 #' countries
@@ -22,7 +22,7 @@ countries <- as.character(unique(data.pck.cntry$name))
 #' Fetch the names of all countries in upper case
 #'
 #' @return Names of all countries in the globe in upper case
-#'
+#' @rdname country1
 #' @examples
 #' # list all the countries
 #' COUNTRIES
