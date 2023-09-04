@@ -155,7 +155,7 @@
 #' # load the population dataset
 #' data(country_population)
 #' data(country_names)
-#' finaldb <- rbind(country_names,country_population)
+#' finaldb <- cbind(country_names,country_population)
 #'
 #' # view content of the country and population
 #' head(finaldb)
@@ -186,7 +186,7 @@
 #' # load the population dataset
 #' data(country_continent)
 #' data(country_names)
-#' finaldb <- rbind(country_names,country_continent)
+#' finaldb <- cbind(country_names,country_continent)
 #'
 #' # view content of the country and population
 #' head(finaldb)
@@ -216,7 +216,7 @@
 #' # load the population dataset
 #' data(country_capital)
 #' data(country_names)
-#' finaldb <- rbind(country_names,country_capital)
+#' finaldb <- cbind(country_names,country_capital)
 #'
 #' # view content of the country and population
 #' head(finaldb)
