@@ -15,4 +15,68 @@ install.packages("r2country")
 
 ```
 
-A work in progress...
+## Use
+
+### Get all countries
+
+```
+#load package
+library(r2country)
+
+#get countries
+countries
+
+#or
+#get countries in uppercase
+COUNTRIES
+```
+
+### Load datasets
+
+```
+data(country_calling_code) # calling code for countries
+data(country_population) # population by year for countries
+data(city_time) # time by city
+data(country_names) # country names
+data(country_money) # countries currency
+data(country_language) # country language
+data(country_capital) #country capitals
+data(country_continent)# continent countries
+
+```
+
+### Use functions available
+
+#### Few examples
+
+``` 
+#get capital of a country
+
+capitalOf$nigeria #for nigeria
+capitalOf$china #for china
+capitalOf[c("slovenia","romania","malaysia")] #get multiple capitals
+
+#get offical languages of a country
+
+languageOf$romania #for romania
+languageOf$mexico #for mexico
+languageOf[c("egypt","united kingdom","taiwan")] #get multiple languages
+
+#get population count of country
+
+populationOf$india #for india
+populationOf$brazil #for brazil
+populationOf[c("slovenia","ghana","nigeria")] #get multiple countries
+
+# And others...
+
+```
+
+### Get more examples
+
+For complete list, go to official website above
+
+
+
+
+
