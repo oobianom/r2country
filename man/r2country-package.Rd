@@ -6,7 +6,7 @@
 \alias{r2country-package}
 \title{r2country: Country Data with Names, Capitals, Currencies, Populations, Time, Languages and so on}
 \description{
-Obtain information about countries around the globe. Information for names, states, languages, time, capitals, currency and many more. Information were obtained from using 'Wikipedia' \url{https://www.wikipedia.org}, 'TimeAndDate' \url{https://www.timeanddate.com} and 'CountryCode' \url{https://countrycode.org}.
+Obtain information about countries around the globe. Information for names, states, languages, time, capitals, currency and many more. Data source are 'Wikipedia' \url{https://www.wikipedia.org}, 'TimeAndDate' \url{https://www.timeanddate.com} and 'CountryCode' \url{https://countrycode.org}.
 }
 \seealso{
 Useful links:
