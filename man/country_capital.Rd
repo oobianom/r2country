@@ -27,7 +27,7 @@ Dataset containing country IDs and their capitals
 # load the population dataset
 data(country_capital)
 data(country_names)
-finaldb <- rbind(country_names,country_capital)
+finaldb <- cbind(country_names,country_capital)
 
 # view content of the country and population
 head(finaldb)

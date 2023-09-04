@@ -27,7 +27,7 @@ Dataset containing country IDs and their population by year
 # load the population dataset
 data(country_population)
 data(country_names)
-finaldb <- rbind(country_names,country_population)
+finaldb <- cbind(country_names,country_population)
 
 # view content of the country and population
 head(finaldb)

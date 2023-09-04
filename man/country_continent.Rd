@@ -27,7 +27,7 @@ Dataset containing country IDs and their continents
 # load the population dataset
 data(country_continent)
 data(country_names)
-finaldb <- rbind(country_names,country_continent)
+finaldb <- cbind(country_names,country_continent)
 
 # view content of the country and population
 head(finaldb)
