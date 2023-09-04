@@ -4,9 +4,9 @@
 \name{r2country-package}
 \alias{r2country}
 \alias{r2country-package}
-\title{r2country: Country Data with Names, Capitals, Governments, Currencies, Populations, Time, Languages and so on}
+\title{r2country: Country Data with Names, Capitals, Currencies, Populations, Time, Languages and so on}
 \description{
-Easily Obtain information about countries around the globe. Information for name, states, presidents, currency and many more.
+Obtain information about countries around the globe. Information for names, states, languages, time, capitals, currency and many more. Information were obtained from using 'Wikipedia' \url{https://www.wikipedia.org}, 'TimeAndDate' \url{https://www.timeanddate.com} and 'CountryCode' \url{https://countrycode.org}.
 }
 \seealso{
 Useful links:
