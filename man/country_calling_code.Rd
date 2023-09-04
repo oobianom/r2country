@@ -3,24 +3,43 @@
 \docType{data}
 \name{country_calling_code}
 \alias{country_calling_code}
-\title{Data for Country Money}
+\title{Dataset of countries and their calling code}
 \format{
-A data frame with all countries and columns for currency
+A data frame with the calling code of countries
 \describe{
-   \item{x}{country name}
+   \item{ID}{country identifiers}
+   \item{callingcode}{Calling code of countries}
    }
 }
 \source{
-{Internal data for currencies belonging to every country}
+{Internal data consisting of countries and their calling code}
 }
 \usage{
-country_calling_code
+data(country_calling_code)
+}
+\value{
+calling code of countries
 }
 \description{
-Data for all country currency names and symbols
+Dataset containing country IDs and their calling code
 }
 \examples{
+# load the calling code dataset
 data(country_calling_code)
 
+# view content of the city-calling code data
+head(country_calling_code)
+
+
 }
-\keyword{datasets}
+\references{
+\url{timeanddate.com}
+}
+\seealso{
+Data \code{\link{country_names}} for linkage of IDs with country calling code
+}
+\keyword{calling}
+\keyword{code}
+\keyword{code,}
+\keyword{country}
+\keyword{country,}

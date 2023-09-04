@@ -3,24 +3,41 @@
 \docType{data}
 \name{city_time}
 \alias{city_time}
-\title{Data for Country Money}
+\title{Dataset of current time in Cities}
 \format{
-A data frame with all countries and columns for currency
+A data frame with the current time in various cities
 \describe{
-   \item{x}{country name}
+   \item{City}{Names of cities}
+   \item{Timediff}{Time difference relative to New York time}
    }
 }
 \source{
-{Internal data for currencies belonging to every country}
+{Internal data consisting of cities and their corresponding time}
 }
 \usage{
-city_time
+data(city_time)
+}
+\value{
+cities and the current time relative to New York
 }
 \description{
-Data for all country currency names and symbols
+Dataset containing time different in various cities with respect to USA/New York time
 }
 \examples{
-data(country_money)
+# load the cities and languages dataset
+data(city_time)
+
+# view content of the city-language data
+head(city_time)
 
 }
-\keyword{datasets}
+\references{
+\url{timeanddate.com}
+}
+\keyword{city}
+\keyword{country}
+\keyword{current}
+\keyword{in}
+\keyword{place,}
+\keyword{time}
+\keyword{time,}

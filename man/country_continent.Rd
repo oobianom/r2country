@@ -3,24 +3,43 @@
 \docType{data}
 \name{country_continent}
 \alias{country_continent}
-\title{Data for Country Money}
+\title{Dataset of countries and their continents}
 \format{
-A data frame with all countries and columns for currency
+A data frame with the continents that countries belong to
 \describe{
-   \item{x}{country name}
+   \item{ID}{country identifiers}
+   \item{continent}{continents of various country}
    }
 }
 \source{
-{Internal data for currencies belonging to every country}
+{Internal data consisting of countries and their continent}
 }
 \usage{
-country_continent
+data(country_continent)
+}
+\value{
+corresponding continents of countries
 }
 \description{
-Data for all country currency names and symbols
+Dataset containing country IDs and their continents
 }
 \examples{
+# load the population dataset
 data(country_continent)
+data(country_names)
+finaldb <- rbind(country_names,country_continent)
+
+# view content of the country and population
+head(finaldb)
+
 
 }
-\keyword{datasets}
+\references{
+\url{wikipedia.com}
+}
+\seealso{
+Data \code{\link{country_names}} for linkage of IDs with continent
+}
+\keyword{continent,}
+\keyword{continents}
+\keyword{country}

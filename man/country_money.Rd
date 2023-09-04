@@ -3,7 +3,7 @@
 \docType{data}
 \name{country_money}
 \alias{country_money}
-\title{Data for Country Money}
+\title{Dataset for Country Currencies}
 \format{
 A data frame with all countries and columns for currency
 \describe{

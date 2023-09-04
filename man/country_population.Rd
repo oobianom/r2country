@@ -3,24 +3,45 @@
 \docType{data}
 \name{country_population}
 \alias{country_population}
-\title{Data for Country Money}
+\title{Dataset of countries and their latest population}
 \format{
-A data frame with all countries and columns for currency
+A data frame with the population of countries
 \describe{
-   \item{x}{country name}
+   \item{ID}{country identifiers}
+   \item{population2023}{country population as of 2023}
    }
 }
 \source{
-{Internal data for currencies belonging to every country}
+{Internal data consisting of countries and their population}
 }
 \usage{
-country_population
+data(country_population)
+}
+\value{
+corresponding population size of countries
 }
 \description{
-Data for all country currency names and symbols
+Dataset containing country IDs and their population by year
 }
 \examples{
+# load the population dataset
 data(country_population)
+data(country_names)
+finaldb <- rbind(country_names,country_population)
+
+# view content of the country and population
+head(finaldb)
+
 
 }
-\keyword{datasets}
+\references{
+\url{wikipedia.com}
+}
+\seealso{
+Data \code{\link{country_names}} for linkage of IDs with country population size
+}
+\keyword{country}
+\keyword{glocally}
+\keyword{of,}
+\keyword{population}
+\keyword{population,}

@@ -35,7 +35,7 @@ head(country_language)
 \url{wikipedia.com}
 }
 \seealso{
-\code{\link{country_names}} for linkage of IDs with country names
+Data \code{\link{country_names}} for linkage of IDs with country names
 }
 \keyword{countries}
 \keyword{country}

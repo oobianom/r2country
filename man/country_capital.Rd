@@ -3,24 +3,43 @@
 \docType{data}
 \name{country_capital}
 \alias{country_capital}
-\title{Data for Country Money}
+\title{Dataset of countries and their capitals}
 \format{
-A data frame with all countries and columns for currency
+A data frame with the capitals that countries belong to
 \describe{
-   \item{x}{country name}
+   \item{ID}{country identifiers}
+   \item{capital}{capitals of various country}
    }
 }
 \source{
-{Internal data for currencies belonging to every country}
+{Internal data consisting of countries and their capital}
 }
 \usage{
-country_capital
+data(country_capital)
+}
+\value{
+corresponding capitals of countries
 }
 \description{
-Data for all country currency names and symbols
+Dataset containing country IDs and their capitals
 }
 \examples{
+# load the population dataset
 data(country_capital)
+data(country_names)
+finaldb <- rbind(country_names,country_capital)
+
+# view content of the country and population
+head(finaldb)
+
 
 }
-\keyword{datasets}
+\references{
+\url{wikipedia.com}
+}
+\seealso{
+Data \code{\link{country_names}} for linkage of IDs with capital
+}
+\keyword{capital,}
+\keyword{capitals}
+\keyword{country}
