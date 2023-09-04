@@ -17,8 +17,8 @@ a list containing all countries and corresponding continents
 Get the continent that a particular country belongs to
 }
 \examples{
-# view the searchable countries
-names(continentOf)
+# view the searchable countries, return first 15
+names(continentOf)[1:15]
 
 #task 1: view the continent of algeria
 continentOf$algeria
