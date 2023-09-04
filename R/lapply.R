@@ -3,11 +3,64 @@ languageOf <- lapply(countries1, function(cnt){
   unlist(data.pck.cntry[data.pck.cntry$name==cnt,]$officiallanguage)
 })
 
+#' Fetch the latest capital of a country
+#'
+#' With specified country name or names, get the associated capital
+#'
+#' @return a list containing all countries and their corresponding capital
+#' @examples
+#' # view the searchable countries, return first 6
+#' head(names(capitalOf))
+#'
+#' #task 0: check if the capital of japan is included
+#' #should be all in lower case
+#' grep("japan",names(capitalOf), value = TRUE)
+#'
+#' #task 1: check the capital of nigeria
+#' capitalOf$nigeria
+#'
+#' #task 2: check the capital of united states
+#' capitalOf$`united states`
+#'
+#'
+#' #task 3: check capital of multiple countries
+#' capitalOf[c("slovenia","romania","malaysia")]
+#'
+#' #task 4: what if the capital is not available
+#' capitalOf[c("randomcountry","mexico","luxembourg")]
+#'
 #' @export
 capitalOf <- lapply(countries1, function(cnt){
   unlist(data.pck.cntry[data.pck.cntry$name==cnt,]$capital)
 })
 
+
+#' Fetch the latest population of a country
+#'
+#' With specified country name or names, get the associated population
+#'
+#' @return a list containing all countries and their corresponding population
+#' @examples
+#' # view the searchable countries, return first 6
+#' head(names(populationOf))
+#'
+#' #task 0: check if the population of japan is included
+#' #should be all in lower case
+#' grep("japan",names(populationOf), value = TRUE)
+#'
+#' #task 1: check the population of nigeria
+#' populationOf$nigeria
+#'
+#' #task 2: check the population of united states
+#' populationOf$`united states`
+#'
+#'
+#' #task 3: check population of multiple countries
+#' populationOf[c("slovenia","romania","malaysia")]
+#'
+#' #task 4: what if the population is not available
+#' populationOf[c("randomcountry","mexico","luxembourg")]
+#'
 #' @export
 populationOf <- lapply(countries1, function(cnt){
   unlist(data.pck.cntry[data.pck.cntry$name==cnt,]$population2023)
