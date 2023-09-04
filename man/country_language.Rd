@@ -3,24 +3,42 @@
 \docType{data}
 \name{country_language}
 \alias{country_language}
-\title{Data for Country Money}
+\title{Dataset of country official languages}
 \format{
-A data frame with all countries and columns for currency
+A data frame with the languages of countries
 \describe{
-   \item{x}{country name}
+   \item{ID}{Identifier for the countries}
+   \item{officiallanguage}{official languages of countries}
    }
 }
 \source{
-{Internal data for currencies belonging to every country}
+{Internal data consisting of all country IDs and their official languages}
 }
 \usage{
-country_language
+data(country_language)
+}
+\value{
+country ID and official languages
 }
 \description{
-Data for all country currency names and symbols
+Data for all countries and their associated languages
 }
 \examples{
-data(country_money)
+# load the country ID and languages
+data(country_language)
+
+# view content of the countries languages
+head(country_language)
 
 }
-\keyword{datasets}
+\references{
+\url{wikipedia.com}
+}
+\seealso{
+\code{\link{country_names}} for linkage of IDs with country names
+}
+\keyword{countries}
+\keyword{country}
+\keyword{language}
+\keyword{languages,}
+\keyword{of}

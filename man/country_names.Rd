@@ -3,24 +3,36 @@
 \docType{data}
 \name{country_names}
 \alias{country_names}
-\title{Data for Country Money}
+\title{Dataset of country names}
 \format{
-A data frame with all countries and columns for currency
+A data frame with the names of all countries
 \describe{
-   \item{x}{country name}
+   \item{ID}{Identifier for the countries}
+   \item{name}{name of the countries}
    }
 }
 \source{
-{Internal data for currencies belonging to every country}
+{Internal data consisting of all country names}
 }
 \usage{
-country_names
+data(country_names)
+}
+\value{
+data for names of country
 }
 \description{
-Data for all country currency names and symbols
+Data for all country currency names and associated ID
 }
 \examples{
-data(country_money)
+# load the country names
+data(country_names)
+
+# view content of the countries currency
+head(country_names)
 
 }
-\keyword{datasets}
+\references{
+\url{wikipedia.com}
+}
+\keyword{country}
+\keyword{names}

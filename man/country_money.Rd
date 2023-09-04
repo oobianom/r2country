@@ -8,17 +8,17 @@
 A data frame with all countries and columns for currency
 \describe{
    \item{ID}{Identifier for countries}
-    \item{currency}{name of the currency}
-     \item{symbol}{symbol of the currency}
-      \item{isocode}{The ISO code of the currency}
-      \item{fractionalunity}{The fractional unit of the currency}
+   \item{currency}{name of the currency}
+   \item{symbol}{symbol of the currency}
+   \item{isocode}{The ISO code of the currency}
+   \item{fractionalunity}{The fractional unit of the currency}
    }
 }
 \source{
 {Internal data for currencies belonging to every country}
 }
 \usage{
-country_money
+data(country_money)
 }
 \value{
 data for currencies by country
@@ -29,9 +29,15 @@ Data for all country currency names and symbols
 \examples{
 data(country_money)
 
+# view content of the countries currency
+head(country_money)
+
 }
 \references{
 \url{wikipedia.com}
+}
+\seealso{
+\code{\link{country_names}} for linkage of IDs with country names
 }
 \keyword{by}
 \keyword{country}
