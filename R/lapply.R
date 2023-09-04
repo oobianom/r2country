@@ -36,25 +36,25 @@ names(city_time1) <- tolower(city_time1)
 #' @return a list containing all cities and corresponding local time
 #' @examples
 #' # view the searchable cities, return first 10
-#' names(timeOf)[1:10]
+#' names(timeIn)[1:10]
 #'
 #' #task 0: check if the time in Delhi is present
-#' grep("Delhi",names(timeOf), value = TRUE)
+#' grep("Delhi",names(timeIn), value = TRUE)
 #'
 #' #task 1: check the time in delhi
-#' timeOf$delhi
+#' timeIn$delhi
 #'
 #' #task 2: check the time in Boston
-#' timeOf$boston
+#' timeIn$boston
 #'
 #' #task 3: view the time in multiple countries
-#' timeOf[c("ankara","dubai","ontario")]
+#' timeIn[c("ankara","dubai","ontario")]
 #'
 #' #task 4: what if the city is not available
-#' timeOf[c("randomcity","dili","jerusalem")]
+#' timeIn[c("randomcity","dili","jerusalem")]
 #'
 #' @export
-timeOf <- lapply(city_time1, function(cnt){
+timeIn <- lapply(city_time1, function(cnt){
   #message("!!! does not take daylight savings into account yet")
   us.time <- as.POSIXct(Sys.time(), tz = "America/New_York")
   as.POSIXct(as.numeric(unlist(city_time[city_time$City == cnt,]$Timediff)[1]) + us.time)
