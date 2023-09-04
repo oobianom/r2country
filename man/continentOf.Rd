@@ -20,7 +20,7 @@ Get the continent that a particular country belongs to
 # view the searchable countries
 names(continentOf)
 
-# task 1: view the continent of algeria
+#task 1: view the continent of algeria
 continentOf$algeria
 
 #task 2: view the continent of nigeria
@@ -29,7 +29,7 @@ continentOf$nigeria
 #task 3: view the continent of multiple countries
 continentOf[c("niger","china","colombia")]
 
-#task 3: if the continent is not available
+#task 4: if the continent is not available
 continentOf[c("niger","china","randomtest")]
 
 }
