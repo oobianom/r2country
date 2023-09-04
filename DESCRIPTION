@@ -1,6 +1,6 @@
 Package: r2country
 Type: Package
-Title: Country Data for Name, States, Government, Currency, Population, Time, Languages and so on
+Title: All Country Data for Name, Capitals, Government, Currency, Population, Time, Languages and so on.
 Version: 1.0
 Authors@R: c(
     person("Obinna", "Obianom", email = "idonshayo@gmail.com", role = c("aut", "cre")))
@@ -13,15 +13,14 @@ Depends:
     R (>= 3.6)
 Imports: 
     utils,
-    grDevices,
     stats,
     rlang,
-    rstudioapi
+    quickcode
 Suggests: 
     rmarkdown,
     knitr,
     qpdf,
-    testthat (>= 3.0.0)
+    testthat
 Encoding: UTF-8
 VignetteBuilder: knitr
 Language: en-US

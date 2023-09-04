@@ -1,3 +1,12 @@
+.onLoad <- function(libname, pkgname) {
+  # hooks for future enhancements
+}
+
+
+.onAttach <- function(libname, pkgname) {
+  # hooks for future enhancements
+}
+
 #Fetch relevant country data pack
 data(country_calling_code) # calling code for countries
 data(country_population) # population by year for countries

@@ -12,7 +12,7 @@
 #' countries[1:5]
 #'
 #' # create a dataset with all countries of the world
-#' data.frame(ID = 1, Names = countries)
+#' data.frame(ID = quickcode::number(length(countries)), Names = countries)
 #'
 #' @export
 countries <- as.character(unique(data.pck.cntry$name))
@@ -37,6 +37,7 @@ countries <- as.character(unique(data.pck.cntry$name))
 COUNTRIES <- toupper(countries)
 
 
-
+countries1 <- countries
+names(countries1)= tolower(countries1)
 
 

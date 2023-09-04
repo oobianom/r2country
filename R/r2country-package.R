@@ -1,14 +1,6 @@
 #' @keywords internal
 "_PACKAGE"
 
-.onLoad <- function(libname, pkgname) {
-  # hooks for future enhancements
-}
-
-
-.onAttach <- function(libname, pkgname) {
-  # hooks for future enhancements
-}
 
 
 # data fetch
