@@ -4,14 +4,19 @@
 #'
 #' @format A data frame with all countries and columns for currency
 #' \describe{
-#'    \item{x}{country name}
+#'    \item{ID}{Identifier for countries}
+#'     \item{currency}{name of the currency}
+#'      \item{symbol}{symbol of the currency}
+#'       \item{isocode}{The ISO code of the currency}
+#'       \item{fractionalunity}{The fractional unit of the currency}
 #'    }
 #' @source {Internal data for currencies belonging to every country}
-#'
+#' @return data for currencies by country
+#' @references \url{wikipedia.com}
+#' @keywords country currencies, currency by country
 #' @examples
 #' data(country_money)
 #'
-
 "country_money"
 
 

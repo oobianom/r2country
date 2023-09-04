@@ -7,7 +7,11 @@
 \format{
 A data frame with all countries and columns for currency
 \describe{
-   \item{x}{country name}
+   \item{ID}{Identifier for countries}
+    \item{currency}{name of the currency}
+     \item{symbol}{symbol of the currency}
+      \item{isocode}{The ISO code of the currency}
+      \item{fractionalunity}{The fractional unit of the currency}
    }
 }
 \source{
@@ -16,6 +20,9 @@ A data frame with all countries and columns for currency
 \usage{
 country_money
 }
+\value{
+data for currencies by country
+}
 \description{
 Data for all country currency names and symbols
 }
@@ -23,4 +30,10 @@ Data for all country currency names and symbols
 data(country_money)
 
 }
-\keyword{datasets}
+\references{
+\url{wikipedia.com}
+}
+\keyword{by}
+\keyword{country}
+\keyword{currencies,}
+\keyword{currency}
