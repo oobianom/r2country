@@ -5,10 +5,10 @@
 #' @format A data frame with all countries and columns for currency
 #' \describe{
 #'    \item{ID}{Identifier for countries}
-#'     \item{currency}{name of the currency}
-#'      \item{symbol}{symbol of the currency}
-#'       \item{isocode}{The ISO code of the currency}
-#'       \item{fractionalunity}{The fractional unit of the currency}
+#'    \item{currency}{name of the currency}
+#'    \item{symbol}{symbol of the currency}
+#'    \item{isocode}{The ISO code of the currency}
+#'    \item{fractionalunity}{The fractional unit of the currency}
 #'    }
 #' @source {Internal data for currencies belonging to every country}
 #' @return data for currencies by country
@@ -17,22 +17,32 @@
 #' @examples
 #' data(country_money)
 #'
+#' #view content of the countries currency
+#' head(country_money)
+#'
 "country_money"
 
 
 
-#' Data for Country Money
+#' Dataset of country names
 #'
-#' Data for all country currency names and symbols
+#' Data for all country currency names and associated ID
 #'
-#' @format A data frame with all countries and columns for currency
+#' @format A data frame with the names of all countries
 #' \describe{
-#'    \item{x}{country name}
+#'    \item{ID}{Identifier for the countries}
+#'    \item{name}{name of the countries}
 #'    }
-#' @source {Internal data for currencies belonging to every country}
-#'
+#' @source {Internal data consisting of all country names}
+#' @return data for names of country
+#' @references \url{wikipedia.com}
+#' @keywords country names and ID for relational datasets
 #' @examples
-#' data(country_money)
+#' # load the country names
+#' data(country_names)
+#'
+#' #view content of the countries currency
+#' head(country_names)
 #'
 
 "country_names"
