@@ -39,7 +39,6 @@ timeOf <- lapply(city_time1, function(cnt){
 #'
 #' Get the continent that a particular country belongs to
 #'
-#' @param NULL
 #' @return a list containing all countries and corresponding continents
 #' @examples
 #' # view the searchable countries
