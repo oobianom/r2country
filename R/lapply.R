@@ -1,3 +1,30 @@
+
+#' Fetch the official language of a country
+#'
+#' With specified country name or names, get the associated official language(s)
+#'
+#' @return a list containing all countries and their corresponding language
+#' @examples
+#' # view the searchable countries, return first 6
+#' head(names(languageOf))
+#'
+#' #task 0: check if the language of japan is included
+#' #should be all in lower case
+#' grep("japan",names(languageOf), value = TRUE)
+#'
+#' #task 1: check the language of nigeria
+#' languageOf$nigeria
+#'
+#' #task 2: check the language of united states
+#' languageOf$`united states`
+#'
+#'
+#' #task 3: check language of multiple countries
+#' languageOf[c("slovenia","romania","malaysia")]
+#'
+#' #task 4: what if the language is not available
+#' languageOf[c("randomcountry","mexico","luxembourg")]
+#'
 #' @export
 languageOf <- lapply(countries1, function(cnt){
   unlist(data.pck.cntry[data.pck.cntry$name==cnt,]$officiallanguage)
