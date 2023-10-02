@@ -1,4 +1,8 @@
-# r2country 1.0
+# r2country 2.0.2.3.1
+
+ - [ ] Fix current time data to include countries for each city
+ 
+# r2country 2.0.2.3.0
 
  - [x] All country names
  - [x] All country currencies
