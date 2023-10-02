@@ -49,14 +49,17 @@ joincontinent[joincontinent$upcountry == "PARAGUAY",]$capital = "Asunción"
 country_continent <- joincontinent[,c("ID","continent")]
 country_capital <- joincontinent[,c("ID","capital")]
 
-my_time <- read_excel("inst/.temp/time.xlsx")
+my_time <- read_excel(".temp/time.xlsx")
+my_time$Time <- trimws(my_time$Time)
 newyorktime <- `attr<-`(as.POSIXct(Sys.time()), "tzone", "America/New_York")
 
 timedata = as.Date(Sys.time())
-my_time$Timen = gsub("Thu(.*)","0", my_time$Time)
-my_time$Timen = gsub("Fri(.*)","24", my_time$Timen)
-my_time$Time = gsub("Thu","2023-08-31", my_time$Time)
-my_time$Time = gsub("Fri","2023-09-1", my_time$Time)
+my_time$Timen = gsub("Sun(.*)","-24", my_time$Time)
+my_time$Timen = gsub("Mon(.*)","0", my_time$Time)
+my_time$Timen = gsub("Tue(.*)","24", my_time$Timen)
+my_time$Time = gsub("Sun","2023-10-01", my_time$Time)
+my_time$Time = gsub("Mon","2023-10-02", my_time$Time)
+my_time$Time = gsub("Tue","2023-10-03", my_time$Time)
 my_time$City = gsub(" \\*","",my_time$City)
 
 gleeer<-function(x,add=0){
@@ -64,10 +67,11 @@ gleeer<-function(x,add=0){
   dd[1] = dd[1]+add
   paste(dd,collapse = ":")
 }
-my_time2 <- as.data.frame(my_time %>% separate(Time,c("date","time","pmam"), remove = F, sep = " "))
+
+my_time2 <- as.data.frame(my_time %>% separate(Time,c("date","time","pmam"), remove = F, sep = " ")) %>% distinct(City, .keep_all = TRUE)
 my_time2$ID <- 1:nrow(my_time2)
-nytime <- as.character(my_time2[my_time2$City=="New York","Time"])
-my_time3 <- my_time2 %>% group_by(ID)%>%
+nytime <- as.character(my_time2[my_time2$City=="USA, New York, New York","Time"])
+my_time3 <- my_time2 %>% ungroup() %>% group_by(ID)%>%
   mutate(timer1 = ifelse(tolower(pmam) == "pm",gleeer(time,12),gleeer(time)),
          Timediff = as.numeric(difftime(Time,nytime,units = "secs")),
          time6 = as.POSIXct(nytime) + Timediff
@@ -76,93 +80,7 @@ my_time3 <- my_time2 %>% group_by(ID)%>%
 city_time <- my_time3[,c("City","Timediff")]#,"Time")]
 
 
-city_duplicates <- city_time %>% group_by(City) %>% filter(n()>1) %>% ungroup() %>% arrange(City)
-
-city_time[city_time$City == "Albany"&city_time$Timediff == 0,]$City = "Albany, New York"
-city_time[city_time$City == "Albany"&city_time$Timediff == 90840,]$City = "Albany, Oregon"
-
-city_time[city_time$City == "Alexandria"&city_time$Timediff == -18120,]$City = "Alexandria, Egypt"
-city_time[city_time$City == "Alexandria"&city_time$Timediff == 0,]$City = "Alexandria, Virginia"
-
-city_time[city_time$City == "Athens"&city_time$Timediff == -17580,]$City = "Athens, Greece"
-city_time[city_time$City == "Athens"&city_time$Timediff == 0,]$City = "Athens, Georgia"
-
-city_time[city_time$City == "Birmingham"&city_time$Timediff == -24780,]$City = "Birmingham, UK"
-city_time[city_time$City == "Birmingham"&city_time$Timediff == -3600,]$City = "Birmingham, Alabama"
-
-city_time[city_time$City == "Cambridge"&city_time$Timediff == 62040,]$City = "Cambridge, New Zealand"
-city_time[city_time$City == "Cambridge"&city_time$Timediff == 0,]$City = "Cambridge, Ontario"
-
-city_time[city_time$City == "Córdoba"&city_time$Timediff == -21180,]$City = "Córdoba, Spain"
-city_time[city_time$City == "Córdoba"&city_time$Timediff == 4320,]$City = "Córdoba, Argentina"
-
-city_time[city_time$City == "Hagåtña"&city_time$Timediff == 50400,]$City = "Hagåtña, Guam"
-
-city_time[city_time$City == "Hilo"&city_time$Timediff == -21600,]$City = "Hilo, Hawaii"
-
-
-city_time[city_time$City == "Honolulu"&city_time$Timediff == -21600,]$City = "Honolulu, Hawaii"
-city_time[city_time$City == "Honolulu"&city_time$Timediff == -17160,]$City = "Honolulu, Central Finland"
-
-city_time[city_time$City == "Istanbul"&city_time$Timediff == -17760,]$City = "Istanbul, Turkey"
-
-
-city_time[city_time$City == "Lincoln"&city_time$Timediff == -24780,]$City = "Lincoln, England"
-city_time[city_time$City == "Lincoln"&city_time$Timediff == -3600,]$City = "Lincoln, California"
-
-
-city_time[city_time$City == "London"&city_time$Timediff == -24780,]$City = "London, United Kingdom"
-city_time[city_time$City == "London"&city_time$Timediff == 0,]$City = "London, Ontario"
-
-city_time[city_time$City == "Naples"&city_time$Timediff == -21180,]$City = "Naples, Italy"
-city_time[city_time$City == "Naples"&city_time$Timediff == 0,]$City = "Naples, Florida"
-
-city_time[city_time$City == "Nicosia"&city_time$Timediff == -17760,]$City = "Nicosia, Cyprus"
-#city_time[city_time$City == "Nicosia"&city_time$Timediff == -17580,]$City = "Nicosia, Florida"
-
-city_time[city_time$City == "Orange"&city_time$Timediff == -10800,]$City = "Orange, California"
-city_time[city_time$City == "Orange"&city_time$Timediff == 54840,]$City = "Orange, NS Wales"
-
-
-city_time[city_time$City == "Riverside"&city_time$Timediff == -10800,]$City = "Riverside, California"
-city_time[city_time$City == "Riverside"&city_time$Timediff == 0,]$City = "Riverside, Ohio"
-
-city_time[city_time$City == "Saint-Pierre"&city_time$Timediff == -14520,]$City = "Saint-Pierre, Reunion"
-city_time[city_time$City == "Saint-Pierre"&city_time$Timediff == -36000,]$City = "Saint-Pierre, Miquelon"
-
-city_time[city_time$City == "Saipan"&city_time$Timediff == 50400,]$City = "Saipan, Northern Marina Island"
-#city_time[city_time$City == "Saipan"&city_time$Timediff == 54840,]$City = "Saipan, Ohio"
-
-
-city_time[city_time$City == "San Juan"&city_time$Timediff == 0,]$City = "San Juan, Puerto Rico"
-city_time[city_time$City == "San Juan"&city_time$Timediff == 4320,]$City = "San Juan, Argentina"
-
-
-city_time[city_time$City == "Santa Fe"&city_time$Timediff == -7200,]$City = "Santa Fe, New Mexico"
-city_time[city_time$City == "Santa Fe"&city_time$Timediff == 4320,]$City = "Santa Fe, Argentina"
-
-city_time[city_time$City == "Santa Rosa"&city_time$Timediff == -10800,]$City = "Santa Rosa, California"
-city_time[city_time$City == "Santa Rosa"&city_time$Timediff == 4320,]$City = "Santa Rosa, Argentina"
-
-city_time[city_time$City == "Santo Domingo"&city_time$Timediff == -2880,]$City = "Santo Domingo, Mexico"
-city_time[city_time$City == "Santo Domingo"&city_time$Timediff == 0,]$City = "Santo Domingo, Puerto Rico"
-
-city_time[city_time$City == "Tbilisi"&city_time$Timediff == -14160,]$City = "Tbilisi, Georgia"
-
-city_time[city_time$City == "Victoria"&city_time$Timediff == -14520,]$City = "Victoria, Seychelles"
-city_time[city_time$City == "Victoria"&city_time$Timediff == -10800,]$City = "Victoria, British Columbia"
-
-
-city_time[city_time$City == "Wailuku"&city_time$Timediff == -21600,]$City = "Wailuku, Hawaii"
-
-city_time[city_time$City == "Wake Island"&city_time$Timediff == 62040,]$City = "Wake Island, US Out Island"
-
-city_time[city_time$City == "Worcester"&city_time$Timediff == 0,]$City = "Worcester, Massachusetts"
-city_time[city_time$City == "Worcester"&city_time$Timediff == -21720,]$City = "Worcester, South Africa"
-
-city_time[city_time$City == "Yerevan"&city_time$Timediff == -14160,]$City = "Yerevan, Armenia"
-city_time[city_time$City == "Yerevan"&city_time$Timediff == -13980,]$City = "Yerevan, Azerbaijan"
-
+#city_duplicates <- city_time %>% group_by(City) %>% filter(n()>1) %>% ungroup() %>% arrange(City)
 
 
 
