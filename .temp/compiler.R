@@ -54,12 +54,10 @@ my_time$Time <- trimws(my_time$Time)
 newyorktime <- `attr<-`(as.POSIXct(Sys.time()), "tzone", "America/New_York")
 
 timedata = as.Date(Sys.time())
-my_time$Timen = gsub("Sun(.*)","-24", my_time$Time)
-my_time$Timen = gsub("Mon(.*)","0", my_time$Time)
-my_time$Timen = gsub("Tue(.*)","24", my_time$Timen)
-my_time$Time = gsub("Sun","2023-10-01", my_time$Time)
-my_time$Time = gsub("Mon","2023-10-02", my_time$Time)
+my_time$Timen = gsub("Tue(.*)","0", my_time$Time)
+my_time$Timen = gsub("Wed(.*)","24", my_time$Timen)
 my_time$Time = gsub("Tue","2023-10-03", my_time$Time)
+my_time$Time = gsub("Wed","2023-10-04", my_time$Time)
 my_time$City = gsub(" \\*","",my_time$City)
 
 gleeer<-function(x,add=0){
