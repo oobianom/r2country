@@ -73,6 +73,15 @@ populationOf$india #for india
 populationOf$brazil #for brazil
 populationOf[c("slovenia","ghana","nigeria")] #get multiple countries
 
+
+#get the current time in a place
+
+grep("usa,",names(timeIn), value = T) #get the available USA regions
+timeIn$`usa, california, oakland` #get the current time in Oakland, California
+
+grep("nigeria,",names(timeIn), value = T) #get the available Nigeria regions
+timeIn$`nigeria, lagos, lagos` #get the current time in Lagos, Nigeria
+
 # And others...
 
 ```

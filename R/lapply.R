@@ -1,4 +1,3 @@
-
 #' Fetch the official language of a country
 #'
 #' With specified country name or names, get the associated official language(s)
@@ -180,13 +179,17 @@ names(city_time1) <- tolower(city_time1)
 #' grep("delhi",names(timeIn), value = TRUE)
 #'
 #' #task 1: check the time in delhi
-#' timeIn$delhi
+#' timeIn$`india, delhi, new delhi`
 #'
 #' #task 2: check the time in Boston
-#' timeIn$boston
+#' timeIn$`usa, massachusetts, boston`
 #'
 #' #task 3: view the time in multiple countries
-#' timeIn[c("ankara","dubai","ontario")]
+#' timeIn[c(
+#' "china, zhejiang, hangzhou",
+#' "nigeria, kano, kano",
+#' "usa, texas, garland"
+#' )]
 #'
 #' #task 4: what if the city is not available
 #' timeIn[c("randomcity","york","jerusalem")]
@@ -208,16 +211,16 @@ timeIn <- lapply(city_time1, function(cnt){
       ent <- as.POSIXct("2023-11-05 03:00:00")
     },
     "2024" = {
-      stt <-as.POSIXct("2023-03-10 03:00:00")
-      ent <- as.POSIXct("2023-11-03 03:00:00")
+      stt <-as.POSIXct("2024-03-10 03:00:00")
+      ent <- as.POSIXct("2024-11-03 03:00:00")
     },
     "2025" = {
-      stt <-as.POSIXct("2023-03-09 03:00:00")
-      ent <- as.POSIXct("2023-11-02 03:00:00")
+      stt <-as.POSIXct("2025-03-09 03:00:00")
+      ent <- as.POSIXct("2025-11-02 03:00:00")
     },
     "2026" = {
-      stt <-as.POSIXct("2023-03-08 03:00:00")
-      ent <- as.POSIXct("2023-11-01 03:00:00")
+      stt <-as.POSIXct("2026-03-08 03:00:00")
+      ent <- as.POSIXct("2026-11-01 03:00:00")
     }
   )
 
