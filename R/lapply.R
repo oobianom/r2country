@@ -218,7 +218,7 @@ timeIn <- lapply(city_time1, function(cnt){
       stt <-as.POSIXct("2025-03-09 03:00:00")
       ent <- as.POSIXct("2025-11-02 03:00:00")
     },
-    "2026" = {
+     {
       stt <-as.POSIXct("2026-03-08 03:00:00")
       ent <- as.POSIXct("2026-11-01 03:00:00")
     }
