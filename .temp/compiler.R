@@ -72,7 +72,7 @@ nytime <- as.character(my_time2[my_time2$City=="USA, New York, New York","Time"]
 my_time3 <- my_time2 %>% ungroup() %>% group_by(ID)%>%
   mutate(timer1 = ifelse(tolower(pmam) == "pm",gleeer(time,12),gleeer(time)),
          timex3 = paste0(date," ",timer1,":00 EDT"),
-         Timediff = as.numeric(difftime(timex3,nytime,units = "secs")),
+         Timediff = as.numeric(as.POSIXct(timex3)-as.POSIXct(nytime),units = "secs"),
          time6 = as.POSIXct(nytime) + Timediff
 
   )
