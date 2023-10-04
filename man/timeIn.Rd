@@ -25,13 +25,17 @@ names(timeIn)[1:10]
 grep("delhi",names(timeIn), value = TRUE)
 
 #task 1: check the time in delhi
-timeIn$delhi
+timeIn$`india, delhi, new delhi`
 
 #task 2: check the time in Boston
-timeIn$boston
+timeIn$`usa, massachusetts, boston`
 
 #task 3: view the time in multiple countries
-timeIn[c("ankara","dubai","ontario")]
+timeIn[c(
+"china, zhejiang, hangzhou",
+"nigeria, kano, kano",
+"usa, texas, garland"
+)]
 
 #task 4: what if the city is not available
 timeIn[c("randomcity","york","jerusalem")]
