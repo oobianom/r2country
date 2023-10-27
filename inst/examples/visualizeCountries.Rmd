@@ -1,0 +1,129 @@
+---
+title: "R Visualize countries, currencies and population of the world using r2country"
+author: "Obi Obianom"
+date: "2023-10-27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+quickcode::libraryAll(
+  r2country,
+  collapsibleTree,
+  dplyr,
+  quietly = TRUE,
+  clear = TRUE
+)
+```
+
+## The What
+
+In this tutorial, we are going to combine the power of 4 R packages to create a nice visual for countries by their respective continents and their capitals.
+
+## Packages used
+
+ - [x] &nbsp; quickcode - clear environment and load required packages, as well as provide useful functions
+ - [x] &nbsp; r2country - various datasets for continents, countries, captials, calling code and so on
+ - [x] &nbsp; collapsibleTree - create a nice visual using the provided dataset to visualize countries 
+ 
+## Load packages
+
+```{r}
+quickcode::libraryAll(
+  r2country,
+  collapsibleTree,
+  quietly = TRUE,
+  clear = TRUE
+)
+
+```
+
+
+## Prepare and previous continents and country data from r2country package
+
+```{r}
+
+# use datasets of continent, country names, and capitals
+
+final.dt <- country_names
+
+for( cl in c(
+ "country_continent", # continents 
+ "country_capital", # capitals
+ "country_money", #currencies
+ "country_population" #population
+)){
+  final.dt <- merge(final.dt, get(cl),by = "ID")
+}
+
+
+# preview the dataset
+names(final.dt)
+head(final.dt)
+
+```
+
+
+## Visualize the country dataset
+
+*** 
+
+### Continent ⇉ Country ⇉ Captitals
+
+```{r}
+collapsibleTree(
+  final.dt,
+  hierarchy = c("continent", "name", "capital"),
+  root = "Continents",
+  width = 1800,
+  fontSize = 15,
+  height = 1000,
+  zoomable = TRUE
+)
+```
+***
+### Continent ⇉ Country ⇉ Currency
+```{r}
+collapsibleTree(
+  final.dt,
+  hierarchy = c("continent", "name", "currency"),
+  root = "Continents",
+  width = 1800,
+  fontSize = 15,
+  height = 1000,
+  zoomable = TRUE
+)
+```
+***
+### Continent ⇉ Country ⇉ Population
+```{r}
+collapsibleTree(
+  final.dt,
+  hierarchy = c("continent", "name", "population2023"),
+  root = "Continents",
+  width = 1800,
+  fontSize = 15,
+  height = 1000,
+  zoomable = TRUE
+)
+```
+
+***
+### Continent ⇉ Country ⇉ isocode
+```{r}
+collapsibleTree(
+  final.dt,
+  hierarchy = c("continent", "name", "isocode"),
+  root = "Continents",
+  width = 1800,
+  fontSize = 15,
+  height = 1000,
+  zoomable = TRUE
+)
+```
+
+## R package links
+
+ - [x] &nbsp; quickcode - https://cran.r-project.org/package=quickcode
+ - [x] &nbsp; r2country - https://cran.r-project.org/package=r2country
+ - [x] &nbsp; collapsibleTree - https://cran.r-project.org/package=collapsibleTree
