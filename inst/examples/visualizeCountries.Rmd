@@ -42,18 +42,17 @@ quickcode::libraryAll(
 ## Prepare and previous continents and country data from r2country package
 
 ```{r}
-
 # use datasets of continent, country names, and capitals
 
 final.dt <- country_names
 
-for( cl in c(
- "country_continent", # continents 
- "country_capital", # capitals
- "country_money", #currencies
- "country_population" #population
-)){
-  final.dt <- merge(final.dt, get(cl),by = "ID")
+for (cl in c(
+  "country_continent", # continents
+  "country_capital", # capitals
+  "country_money", # currencies
+  "country_population" # population
+)) {
+  final.dt <- merge(final.dt, get(cl), by = "ID")
 }
 
 
