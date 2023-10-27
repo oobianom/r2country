@@ -1,6 +1,8 @@
 # r2country: Compiled dataset and functions for country names, capitals, languages and so on. 
 
-### Official website: https://r2country.obi.obianom.com <img src="https://r2country.obi.obianom.com/hex-r2country.png" align="right" width="150">
+### Official Website: https://r2country.obi.obianom.com <img src="https://r2country.obi.obianom.com/hex-r2country.png" align="right" width="150">
+
+### View Demo: https://r2country.obi.obianom.com/visualizeCountries.html
 
 #### Quick calls to obtain various country info for use in writing R markdown and developing robust applications
 
