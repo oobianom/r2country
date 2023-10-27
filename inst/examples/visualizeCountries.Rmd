@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## The What
 
-In this tutorial, we are going to combine the power of 4 R packages to create a nice visual for countries by their respective continents and their capitals.
+In this tutorial, we are going to combine the power of 3 R packages to create a nice visual for countries by their respective continents and their capitals.
 
 ## Packages used
 
