@@ -23,7 +23,7 @@ In this tutorial, we are going to combine the power of 4 R packages to create a 
 ## Packages used
 
  - [x] &nbsp; quickcode - clear environment and load required packages, as well as provide useful functions
- - [x] &nbsp; r2country - various datasets for continents, countries, captials, calling code and so on
+ - [x] &nbsp; r2country - various datasets for continents, countries, capitals, calling code and so on
  - [x] &nbsp; collapsibleTree - create a nice visual using the provided dataset to visualize countries 
  
 ## Load packages
