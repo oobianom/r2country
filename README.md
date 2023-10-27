@@ -6,6 +6,7 @@
 
 #### Quick calls to obtain various country info for use in writing R markdown and developing robust applications
 
+![](https://r2country.obi.obianom.com/r2country_demo.png)
 
 ***
 
