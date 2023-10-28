@@ -4,6 +4,8 @@
 
 ### View Rmd Demo: https://r2country.obi.obianom.com/visualizeCountries.html
 
+### View Shiny Demo: https://s1.rwebapp.com/shiny/r2country/
+
 #### Quick calls to obtain various country info for use in writing R markdown and developing robust applications
 
 ![](https://r2country.obi.obianom.com/r2country_demo.png)
