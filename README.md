@@ -99,7 +99,7 @@ timeIn$`nigeria, lagos, lagos` #get the current time in Lagos, Nigeria
 
 ### Get more examples
 
-For complete list, go to official website above
+🔴 For complete list, go to official website above
 
 
 
