@@ -6,9 +6,11 @@
 
 ### View Shiny Demo: https://s1.rwebapp.com/shiny/r2country/
 
-#### Quick calls to obtain various country info for use in writing R markdown and developing robust applications
+```diff
+ @@ Quick calls to obtain various country info for use in writing R markdown and developing robust applications
 
-#### Please NOTE that currently the 'timeIn' call may not provide 100% accurate result for time in particular places. This aspect is being worked on for the next version, so don't fret! `#f03c15`
+ ! Please NOTE that currently the 'timeIn' call may not provide 100% accurate result for time in particular places. This aspect is being worked on for the next version, so don't fret! 
+```
 
 ![](https://r2country.obi.obianom.com/r2country_demo.png)
 
