@@ -4,7 +4,7 @@
 
 ### View Rmd Demo: https://r2country.obi.obianom.com/visualizeCountries.html
 
-### View Shiny Demo: https://s1.rwebapp.com/shiny/r2country/
+### View Shiny Demo: https://shinyappstore.com/a/r2country
 
 ```diff
 
